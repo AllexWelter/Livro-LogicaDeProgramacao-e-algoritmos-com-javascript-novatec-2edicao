@@ -8,9 +8,14 @@ Repositório criado com intuito de responder todos os __exemplos__ e __exercíci
 ---
 
 ### Capítulo 1 - Introdução
+Capítulo introdutório começa com informações de entrada(prompt), processamento e saída(alert, console.log) de dados, além de falar sobre variáveis e constantes, comentários, tipos de dados e conversão dos mesmos.
+Aborda também vários exemplos e exercícios práticos.
+
+---
+
+### Capítulo 2 - Integração com HTML
+
 1. Teste
 
 
----
----
 ---
