@@ -15,7 +15,7 @@ Aborda também vários exemplos e exercícios práticos.
 
 ### Capítulo 2 - Integração com HTML
 
-1. Teste
+Atualização do conteúdo conforme leitura do livro e realização dos exemplos/exercícios.
 
 
 ---
