@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) => {
 
     const aPagar = Math.ceil(tempo / 15) * preco
     
-    resp.innerText = `Valor a pagar R$: ${aPagar}` 
+    resp.innerText = `Valor a pagar R$: ${aPagar.toFixed(2)}` 
 
     e.preventDefault()
 })
