@@ -21,7 +21,7 @@ Exercícios do capítulo:
 
 [FARMÁCIA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap02/FARMÁCIA)
 
-[LAN HOUSE](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap02/FARMÁCIA)
+[LAN HOUSE](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap02/LAN%20HOUSE)
 
 [SUPERMERCADO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap02/SUPERMERCADO)
 
