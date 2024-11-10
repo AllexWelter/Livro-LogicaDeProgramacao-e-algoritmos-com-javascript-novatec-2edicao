@@ -15,7 +15,19 @@ Aborda também vários exemplos e exercícios práticos.
 
 ### Capítulo 2 - Integração com HTML
 
-Atualização do conteúdo conforme leitura do livro e realização dos exemplos/exercícios.
+Capítulo aborda integração de documentos html com js, métodos querySelector() e getElementById(), introduz eventos e funções, propriedades innerText, innerHtml e value, método preventDefault(), operadores aritméticos e funções matemáticas(Math).
 
+Exercícios do capítulo: 
+
+[FARMÁCIA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap02/FARMÁCIA)
+
+[LAN HOUSE](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap02/FARMÁCIA)
+
+[SUPERMERCADO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap02/SUPERMERCADO)
+
+---
+### Capítulo 3 - Construção de algoritmos com Node.js
+
+Em atualização... será finalizado conforme leitura do livro.
 
 ---
