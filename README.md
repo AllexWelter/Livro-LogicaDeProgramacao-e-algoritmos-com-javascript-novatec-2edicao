@@ -28,6 +28,11 @@ Exercícios do capítulo:
 ---
 ### Capítulo 3 - Construção de algoritmos com Node.js
 
-Em atualização... será finalizado conforme leitura do livro.
+Capítulo aborda o Node.Js, sua instalação, adição do pacote ___prompt-sync( )___ para entrada de dados, criação e execução de programas com Node.Js e exemplos práticos.
+
+---
+### Capítulo 4 - Condições
+
+Será atualizado mediante a leitura do livro...
 
 ---
