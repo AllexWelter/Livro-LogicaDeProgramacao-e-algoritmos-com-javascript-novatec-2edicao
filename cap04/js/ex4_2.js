@@ -39,3 +39,11 @@ frm.addEventListener("reset", () => {
     }
 
 */
+
+/*
+//operador ternário
+
+const peso = masculino ? 22 * Math.pow(altura, 2) : 21 * Math.pow(altura, 2)
+
+
+*/
