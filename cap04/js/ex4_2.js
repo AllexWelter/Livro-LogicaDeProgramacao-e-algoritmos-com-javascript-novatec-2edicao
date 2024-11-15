@@ -19,6 +19,23 @@ frm.addEventListener("submit", (e) => {
 
     // apresenta a resposta(altera o conteúdo do elemento h3 da página)
 
-    resp.innerText = `${nome}: Seu peso ideal é ${peso}Kg `
+    resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} `
 
 })
+
+frm.addEventListener("reset", () => {
+    resp.innerText = '' //limpa ou conteúdo do elemento h3 que exibe a resposta
+})
+
+
+/*
+         
+    if(masculino) {
+        const peso = 22 * Math.pow(altura, 2)       
+        resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} ` 
+    } else {
+        const peso = 21 * Math.pow(altura, 2) 
+        resp.innerText = `${nome}: Seu peso ideal é ${peso.toFixed(3)} `
+    }
+
+*/
