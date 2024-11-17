@@ -4,3 +4,24 @@ Isósceles -> 2 lados iguais
 Escaleno -> 3 lados diferentes
 */
 
+const frm = document.querySelector("form")
+const resp1 = document.querySelector("#outResp1")
+const resp2 = document.querySelector("#outResp2")
+
+frm.addEventListener("submit", (e) => {
+    e.preventDefault()
+    const ladoA = Number(frm.inLadoA.value)
+    const ladoB = Number(frm.inLadoB.value)
+    const ladoC = Number(frm.inLadoC.value)
+
+    let triangulo
+    if(ladoA == ladoB && ladoB == ladoC && ladoA == ladoC) {
+        triangulo = "Equilátero"
+    } else if(ladoA != ladoB && ladoB != ladoC && ladoA != ladoC) {
+        triangulo = "Escaleno"
+    } else {
+        triangulo = "Isósceles"
+    }
+
+    resp2.innerText = `Tipo: ${triangulo}`
+})
