@@ -22,6 +22,20 @@ frm.addEventListener("submit", (e) => {
     } else {
         triangulo = "Isósceles"
     }
-
+    
+    let lado
+    if (ladoA + ladoB > ladoC && ladoA + ladoC > ladoB && ladoB + ladoC > ladoA) {
+        lado = "Podem formar um triângulo"
+        resp1.innerText = `Lados: ${lado}`
+        resp2.innerText = `Tipo: ${triangulo}`
+    } else {
+        lado = "Os lados não podem formar um triângulo"
+        resp1.innerText = `Lados: ${lado}` 
+    }
+/*
+    resp1.innerText = `Lados: ${lado}` 
     resp2.innerText = `Tipo: ${triangulo}`
+*/
 })
+
+
