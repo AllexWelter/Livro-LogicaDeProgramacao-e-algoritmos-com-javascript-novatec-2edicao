@@ -7,7 +7,7 @@ frm.addEventListener("submit", (e) => {
     e.preventDefault()
     const num = Number(frm.inNumero.value)
     //OPERADOR TERNÁRIO
-    let calc = num % 2 == 0 ? "Par" : "Ímpar"
+    const calc = num % 2 == 0 ? "Par" : "Ímpar"
     resp.innerText = `${num} é ${calc}`   
 })
 
