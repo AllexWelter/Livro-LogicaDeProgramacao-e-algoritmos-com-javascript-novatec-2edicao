@@ -14,12 +14,6 @@ frm.addEventListener("submit", (e) => {
 
 
 
-
-
-
-
-
-
 /*
 IF E ELSE 
 const num = Number(frm.inNumero.value)
@@ -29,4 +23,16 @@ const num = Number(frm.inNumero.value)
         resp.innerText = `${num} é Ímpar `
     }
 
+*/
+
+/*
+IF E ELSE 
+const num = Number(frm.inNumero.value)
+let calc = ""
+    if(num % 2 == 0) {
+        calc = "Par"
+    } else {
+        calc = "Ímpar"
+    }
+resp.innerText = `${num} é ${calc}`
 */
