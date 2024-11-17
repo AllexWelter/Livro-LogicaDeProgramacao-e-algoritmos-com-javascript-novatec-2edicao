@@ -14,28 +14,21 @@ frm.addEventListener("submit", (e) => {
     const ladoB = Number(frm.inLadoB.value)
     const ladoC = Number(frm.inLadoC.value)
 
-    let triangulo
-    if(ladoA == ladoB && ladoB == ladoC && ladoA == ladoC) {
-        triangulo = "Equilátero"
-    } else if(ladoA != ladoB && ladoB != ladoC && ladoA != ladoC) {
-        triangulo = "Escaleno"
+    if (ladoA > ladoB + ladoC || ladoB > ladoA + ladoC || ladoC > ladoA > ladoB) {
+        resp1.innerText = "Lados não podem formar um triângulo" 
     } else {
-        triangulo = "Isósceles"
-    }
-    
-    let lado
-    if (ladoA + ladoB > ladoC && ladoA + ladoC > ladoB && ladoB + ladoC > ladoA) {
-        lado = "Podem formar um triângulo"
-        resp1.innerText = `Lados: ${lado}`
-        resp2.innerText = `Tipo: ${triangulo}`
-    } else {
-        lado = "Os lados não podem formar um triângulo"
-        resp1.innerText = `Lados: ${lado}` 
-    }
-/*
-    resp1.innerText = `Lados: ${lado}` 
-    resp2.innerText = `Tipo: ${triangulo}`
-*/
+        resp1.innerText = "Lados podem formar um triângulo"
+        if(ladoA == ladoB && ladoA == ladoC) {
+            resp2.innerText = "Tipo: Equilátero"
+        } else if(ladoA == ladoB || ladoA == ladoC || ladoB == ladoC) {
+            resp2.innerText = "Tipo: Isósceles"
+        } else {
+            resp2.innerText = "Tipo: Escaleno"
+        }
+    } 
 })
+
+
+
 
 
