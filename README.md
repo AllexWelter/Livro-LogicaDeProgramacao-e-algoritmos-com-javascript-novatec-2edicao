@@ -47,6 +47,8 @@ capítulo aborda Condições, operadores relacionais, lógicos e operador terná
 
 [VERIFICA VELOCIDADE](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/VERIFICA%20VELOCIDADE)
 
+[PARQUÍMETRO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/PARQUÍMETRO)
+
 [LADOS DE UM TRIÂNGULO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/LADOS%20DE%20UM%20TRIÂNGULO)
 
 ---
