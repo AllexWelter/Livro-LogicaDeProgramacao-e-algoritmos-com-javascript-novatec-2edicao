@@ -33,6 +33,34 @@ Capítulo aborda o Node.Js, sua instalação, adição do pacote ___prompt-sync(
 ---
 ### Capítulo 4 - Condições
 
-Será atualizado mediante a leitura do livro...
+capítulo aborda Condições, operadores relacionais, lógicos e operador ternário. Traz também Switch...Case.
+
+[PESO IDEAL](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/PESO%20IDEAL)
+
+[FUSO HORÁRIO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/FUSO%20HORÁRIO)
+
+[RAIZ QUADRADA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/RAIZ%20QUADRADA)
+
+[CAIXA ELETRÔNICO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/CAIXA%20ELETRÔNICO)
+
+[PAR OU ÍMPAR](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/PAR%20OU%20ÍMPAR)
+
+[VERIFICA VELOCIDADE](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/VERIFICA%20VELOCIDADE)
+
+[LADOS DE UM TRIÂNGULO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/LADOS%20DE%20UM%20TRIÂNGULO)
+
+---
+### Capítulo 5 - Repetições
+
+Atualização mediante leitura do capítulo...
+
+
+
+
+
+
+
+
+
 
 ---
