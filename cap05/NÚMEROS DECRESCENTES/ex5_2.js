@@ -6,8 +6,8 @@ frm.addEventListener("submit", (e) => {
     
     const numero = Number(frm.inNumero.value)  //obtém número informado
     let resposta = `Entre ${numero} e 1: `    //string para montar a resposta
-    for (let i = numero; i > 0; i - 1) {     //cria um for decrescente
+    for (let i = numero; i > 0; i--) {     //cria um for decrescente
         resposta = resposta + i + ","       //resposta acumula números (e vírgulas)
     }       
-    resposta.innerText = resposta         //exibe a resposta
+    resp.innerText = resposta         //exibe a resposta
 })
