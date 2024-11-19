@@ -5,14 +5,14 @@ frm.addEventListener("submit", (e) => {        //"escuta" evento submit do form
     e.preventDefault()                        //evita envio do form
     const num = Number(frm.inNumero.value)   //obtém número informado
     let temDivisor = 0                      //declara e inicializa a variável tipo flag
-    for(let i = 2; i <= num / 2; i++) {    //percorre os posssíveis divisores do num
+    for (let i = 2; i <= num / 2; i++) {    //percorre os posssíveis divisores do num
         if (num % i == 0) {               //se tem um divisor
             temDivisor = 1               //muda o flag
             break
         }
     }
 
-    if(num > 1 && !temDivisor) {      //se num > 1 e não possui divisor
+    if (num > 1 && !temDivisor) {      //se num > 1 e não possui divisor
         resp.innerText = `${num} É primo`
     } else {
         resp.innerText = `${num} Não é primo`
