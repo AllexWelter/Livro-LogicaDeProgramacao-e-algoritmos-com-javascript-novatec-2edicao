@@ -22,8 +22,3 @@ frm.addEventListener("submit", (e) => {       //"escuta" evento submit do form
     frm.inValor.value = ""
     frm.inDescricao.focus()              //posiciona no campo inDescricao do form
 })
-
-
-
-
-
