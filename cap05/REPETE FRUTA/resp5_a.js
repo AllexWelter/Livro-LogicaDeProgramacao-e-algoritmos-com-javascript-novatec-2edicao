@@ -1,0 +1,1 @@
+//Elaborar um programa que leia o nome de uma fruta e um número. O Programa deve repetir a exibição do nome da fruta, de acordo com o número informado. Utilize "*" para separar os nomes.
