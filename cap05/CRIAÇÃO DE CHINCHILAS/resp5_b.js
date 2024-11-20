@@ -14,7 +14,8 @@ frm.addEventListener("submit", (e) =>{
     let total = numChinchilas
 
     for (let i = 1; i <= numAnos; i++ ) {
-        resposta = resposta + i + "º Ano: " + total + " Chinchilas\n"
+        resposta += `${i}º Ano: ${total} Chinchilas\n`
+        //resposta = resposta + i + "º Ano: " + total + " Chinchilas\n"
         total = total * 3
     }
     resp.innerText = resposta
