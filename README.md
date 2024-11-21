@@ -54,7 +54,31 @@ capítulo aborda Condições, operadores relacionais, lógicos e operador terná
 ---
 ### Capítulo 5 - Repetições
 
-Atualização mediante leitura do capítulo...
+Capítulo aborda Repetições, com variável de controle ___laços for___, repetição com teste no início ___laços while___, repetição com teste no final ___laços do..while___, interrupções no laços (break e continue), contadores e acumuladores, além de depuração do programas (detecção de erros).
+
+[TABUADA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/TABUADA)
+
+[NÚMEROS DECRESCENTES](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/NÚMEROS%20DECRESCENTES)
+
+[CONTAS DO MÊS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/CONTAS%20DO%20MÊS)
+
+[NÚMEROS PRIMOS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/NÚMEROS%20PRIMOS)
+
+[FÁBRICA DE ESTRELAS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/FÁBRICA%20DE%20ESTRELAS)
+
+[REPETE FRUTA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/REPETE%20FRUTA)
+
+[CRIAÇÃO DE CHINCHILAS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/CRIAÇÃO%20DE%20CHINCHILAS)
+
+[NÚMEROS PERFEITOS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/NÚMEROS%20PERFEITOS)
+
+---
+### Capítulo 6 - Vetores
+
+Atualização mediante leitura...
+
+
+
 
 
 
