@@ -29,7 +29,14 @@ frm.addEventListener("submit", (e) => {                                         
                 alert(`Suas chances acabaram...`)
                 frm.btnSubmit.disabled = true
                 frm.btnNovo.className = "exibe"
+                respDica.innerText = `Game Over!! Número Sorteado: ${sorteado}`
+            } else {
+                //usa opderador ternário para mensagem de dica
+                const dica = numero < sorteado ? "maior" : "menor"
+                respDica.innerText = `Dica: tente um número ${dica} que ${numero}`
             }
         }
     }
+    frm.inNumero.value = ""                       //limpa campo de entrada
+    frm.inNumero.focus()                         //posiciona cursor neste campo
 })
