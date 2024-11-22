@@ -10,11 +10,11 @@ const CHANCES = 6                                           //constante com o n�
 
 frm.addEventListener("submit", (e) => {                                           //"escuta" evento submit do form
     e.preventDefault()                                                           //evita envio do form
-    const numero = numero(frm.inNumero.value)                                   //obtém número digitado
+    const numero = Number(frm.inNumero.value)                                   //obtém número digitado
     if(numero == sorteado) {                                                   //se acertou
         respDica.innerText = `Parabéns! Número sorteado: ${sorteado}`
-        frm.btnSubmit.disabled = true
-        frm.btnNovo.className = "exibe"                                         // troca status do botão
+        frm.btSubmit.disabled = true
+        frm.btNovo.className = "exibe"                                         // troca status do botão
     } else {
         if(erros.includes(numero)) {                                           //se número existe no vetor erros (já apostou)
             alert(`Você já apostou o número ${numero}. Tente outro...`)
@@ -27,8 +27,8 @@ frm.addEventListener("submit", (e) => {                                         
             respChances.innerText = numChances
             if(numChances == 0) {
                 alert(`Suas chances acabaram...`)
-                frm.btnSubmit.disabled = true
-                frm.btnNovo.className = "exibe"
+                frm.btSubmit.disabled = true
+                frm.btNovo.className = "exibe"
                 respDica.innerText = `Game Over!! Número Sorteado: ${sorteado}`
             } else {
                 //usa opderador ternário para mensagem de dica
