@@ -37,6 +37,10 @@ frm.addEventListener("submit", (e) => {                                         
             }
         }
     }
-    frm.inNumero.value = ""                       //limpa campo de entrada
-    frm.inNumero.focus()                         //posiciona cursor neste campo
+    frm.inNumero.value = ""                            //limpa campo de entrada
+    frm.inNumero.focus()                              //posiciona cursor neste campo
 })
+
+frm.btNovo.addEventListener("click", () => {
+    location.reload()                              //recarrega a página
+})  
