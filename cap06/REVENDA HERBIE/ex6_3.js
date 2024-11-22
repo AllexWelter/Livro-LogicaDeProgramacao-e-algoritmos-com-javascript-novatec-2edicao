@@ -24,3 +24,21 @@ frm.btListar.addEventListener("click", () =>{    //"escuta" clique em btListar
     acumulador + carro.modelo + " - R$: " + carro.preco.toFixed(2) + "\n", "")
     resp.innerText = `Lista de Carros Cadastrados\n${"-".repeat(40)}\n${lista}`
 })
+
+frm.btFiltrar.addEventListener('click', () => {
+    const maximo = Number(prompt("Qual o valor máximo que o cliente quer pagar?"))
+    if(maximo == 0 || isNaN(maximo)) {                                //se não informou ou valor inválido
+        return                                                       //... retorna
+    }
+    //cria um novo vetor com os objetos que antendem a condição de filtro
+    const carrosFilter = carros.filter(carro => carro.preco <= maximo)
+    if(carrosFilter.length == 0) {                                             //se tamanho do vetor filtrado é 0
+        alert("Não há carros com preço inferior ou igual ao solicitado")
+        return        
+    }
+    let lista = ""
+    for (const carro of carrosFilter) {                                     //percorre cada elemento do array
+        lista += `${carro.modelo} - R$: ${carro.preco.toFixed(2)}\n`   
+    }
+    resp.innerText = `Carros até R$${maximo.toFixed(2)}\n${"-".repeat(40)}\n${lista}`
+})
