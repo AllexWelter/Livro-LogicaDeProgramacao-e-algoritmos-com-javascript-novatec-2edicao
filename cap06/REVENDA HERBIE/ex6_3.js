@@ -19,4 +19,8 @@ frm.btListar.addEventListener("click", () =>{    //"escuta" clique em btListar
         alert("Não há carros na lista")
         return
     }
+    //métodos reduce() concatena uma string, obtendo modelo e preço de cada veículo 
+    const lista = carros.reduce((acumulador, carro) =>
+    acumulador + carro.modelo + " - R$: " + carro.preco.toFixed(2) + "\n", "")
+    resp.innerText = `Lista de Carros Cadastrados\n${"-".repeat(40)}\n${lista}`
 })
