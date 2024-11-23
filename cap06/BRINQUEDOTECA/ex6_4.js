@@ -41,7 +41,7 @@ frm.btResumir.addEventListener("click", () => {
             nomes.push(nome)                  //adiciona ao vetor nomes
         }
         else {                              //senão, monta o resumo para cada idade
-            resumo += aux + " anos(s): " + nomes.length + "criança(s) - "
+            resumo += aux + " anos(s): " + nomes.length + " criança(s) - "
             resumo += ((nomes.length / copia.length) * 100).toFixed(2) + "%\n"
             resumo += "(" + nomes.join(", ") + ")\n\n"
             aux = idade                      //obtém a nova idade na ordem
@@ -50,7 +50,7 @@ frm.btResumir.addEventListener("click", () => {
         }
     }
     //adiciona a última criança
-    resumo += aux + "ano(s): " + nomes.length + "criança(s) - "
+    resumo += aux + "ano(s): " + nomes.length + " criança(s) - "
     resumo += ((nomes.length / copia.length) * 100).toFixed(2) + "%\n"
     resumo += "(" + nomes.join(", ") + ")\n\n"
     resp.innerText = resumo    //exibe a resposta
