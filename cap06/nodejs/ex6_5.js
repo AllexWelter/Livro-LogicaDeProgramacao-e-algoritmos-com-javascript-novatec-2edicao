@@ -15,8 +15,16 @@ alunos.push({nome, nota})                                           //adiciona d
 console.log("Ok! Aluno(a) cadastrado(a)...")
 } while (true)
 console.log("-".repeat(40))                                            //exibe 40 -
-const maior = alunos.reduce((a, b) => Math.max(nota, b.nota), 0)      //obtém maior nota
-
+const maior = alunos.reduce((a, b) => Math.max(a, b.nota), 0)      //obtém maior nota
+console.log(`Maior nota: ${maior}`)                         //exibe a maior nota
+if (maior >= 7) {                                                    //para verificar se tem destaques na turma
+    const destaques = alunos.filter(aluno => aluno.nota == maior)  //filtro
+    for (const destaque of destaques) {                           //percorre os alunos em destaque
+        console.log(`-${destaque.nome}`)                         //mostra os nomes (precedido por -)
+    }
+} else {                                                       //senão, vai exibr a mensagem
+    console.log("Não há aluno em destaque na turma")
+}
 
 
 
