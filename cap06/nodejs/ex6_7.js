@@ -23,7 +23,7 @@ for (saque of saquesValidos) {
 }
 console.log("-".repeat(40))
 const totalSacado = saques.reduce((total, saque) => total + saque, 0)
-console.log(`Total dos saques: R$ R${totalSacado.toFixed(2)}`)
+console.log(`Total dos saques: R$${totalSacado.toFixed(2)}`)
 
 const saquesInvalidos = saques.length - saquesValidos.length
-console.log(`\n Nº de Tentativas de Saques (saques inválidos): ${saquesInvalidos}`)
+console.log(`\nNº de Tentativas de Saques (saques inválidos): ${saquesInvalidos}`)
