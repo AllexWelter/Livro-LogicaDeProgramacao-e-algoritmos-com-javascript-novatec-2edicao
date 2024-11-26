@@ -49,7 +49,7 @@ frm.btMontar.addEventListener("click", () => {
 
     // percorre os elementos do vetor 
     for (i = 0; i < tam / 2; i++) {
-        jogos += clubes[i] + " X " + clubes[ultimo - i] + "\n"
+        jogos += clubes[i] + " X " + clubes[ultimo - i] + "\n"  //Continua enquanto i for menor que a metade do número(tam / 2). Isso garante que apenas os pares de clubes necessários sejam formados.
     }
     // altera o conteúdo da tag pre
     resp.innerText = jogos
