@@ -45,7 +45,7 @@ frm.btMontar.addEventListener("click", () => {
     }
     // string para concatenar jogos
     let jogos = ""
-    const ultimo = tam - 1
+    const ultimo = tam - 1    // Determina o índice do último elemento do vetor clubes. Isso é necessário porque o índice de um vetor começa em 0.
 
     // percorre os elementos do vetor 
     for (i = 0; i < tam / 2; i++) {
