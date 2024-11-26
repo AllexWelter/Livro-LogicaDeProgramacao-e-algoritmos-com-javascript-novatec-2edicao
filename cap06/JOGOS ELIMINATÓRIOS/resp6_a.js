@@ -11,6 +11,7 @@ frm.addEventListener("submit", (e) => {
     clubes.push = (nome)                                     // adiciona o nome no final do vetor
 
     frm.btListar.dispatchEvent(new Event("click"))         // dispara click em btListar
+
     // limpa campo e posiciona cursor em inClube
     frm.inClube.value = ""
     frm.inClube.focus()
@@ -19,28 +20,38 @@ frm.addEventListener("submit", (e) => {
 
 frm.btListar.addEventListener("click", () => {
     // verifica se vetor clubes está vazio 
-    if(clubes.length == 0) {
-    alert("Não há clubes na lista...") 
-    inClube.focus()
-    return     
+    if (clubes.length == 0) {
+        alert("Não há clubes na lista...")
+        inClube.focus()
+        return
     }
     let lista = ""                                     // string para concatenar clubes
     // percorre os elementos do vetor 
-    for (clube of clubes) {
-        lista += clube + "\n"     
+    for (const clube of clubes) {
+        lista += clube + "\n"
     }
     //exibe a lista
     resp.innerText = lista
 })
 
-frm.btMontar.addEventListener("click", () =>{
+frm.btMontar.addEventListener("click", () => {
     const tam = clubes.length
 
-      // verifica se vetor clubes está vazio ou tamanho ímpar
-      if(tam == 0 || (tam % 2 == 1)) {
-      alert("Deve haver número par de clubes")
-      inClube.focus()
-      return 
-      }
+    // verifica se vetor clubes está vazio ou tamanho ímpar
+    if (tam == 0 || (tam % 2 == 1)) {
+        alert("Deve haver número par de clubes")
+        inClube.focus()
+        return
+    }
+    // string para concatenar jogos
+    let jogos = ""
+    const ultimo = tam - 1
+
+    // percorre os elementos do vetor 
+    for (i = 0; i < tam / 2; i++) {
+        jogos += clubes[i] + " X " + clubes[ultimo - i] + "\n"
+    }
+    // altera o conteúdo da tag pre
+    resp.innerText = jogos
 })
 
