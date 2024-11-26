@@ -15,3 +15,12 @@ do {
         console.log("ERRO... Valor inválido (deve ser múltiplo de 10)")
     }
 } while (true)
+console.log("\nSaques válidos")                                  //\n no início gera uma nova linha
+console.log("-".repeat(40))                                     //exibe 40 -
+const saquesValidos = saques.filter(saque => saque % 10 == 0)
+for (saque of saquesValidos) {
+    console.log(saque.toFixed(2))
+}
+console.log("-".repeat(40))
+const totalSacado = saques.reduce((total, saque) => total + saque, 0)
+console.log(`Total dos saques: R$ R${totalSacado.toFixed(2)}`)
