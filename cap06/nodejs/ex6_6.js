@@ -10,7 +10,7 @@ do {
     }
     const idade = Number(prompt("Idade: "))
     clientes.push({nome, idade})               //adiciona ao vetor de objetos
-    consolelog("Ok! Cliente inserido na fila...")
+    console.log("Ok! Cliente inserido na fila...")
 } while (true)
 console.log("\nFila Preferencial")            // \n no início gera uma nova linha
 console.log("-".repeat(40))                  //exibe 40 -
