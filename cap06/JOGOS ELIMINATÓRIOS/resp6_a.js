@@ -5,10 +5,10 @@ const resp = document.querySelector("pre")
 const clubes = []                             // declara vetor global
 
 frm.addEventListener("submit", (e) => {
-    e.preventdefault()                                          // evita envio do form
+    e.preventDefault()                                          // evita envio do form
 
     const nome = frm.inClube.value
-    clubes.push = (nome)                                     // adiciona o nome no final do vetor
+    clubes.push(nome)                                     // adiciona o nome no final do vetor
 
     frm.btListar.dispatchEvent(new Event("click"))         // dispara click em btListar
 
