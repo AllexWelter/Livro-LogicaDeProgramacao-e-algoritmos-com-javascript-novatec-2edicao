@@ -17,5 +17,11 @@ frm.addEventListener("submit", (e) =>{
 })
 
 frm.inVerificar.addEventListener("click", () =>{
-        
+    if(numeros.length == 0 ) {
+        alert("Não há números na lista...")
+        inNumero.focus()
+        return
+    }   
+    
+    
 })
