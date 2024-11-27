@@ -12,6 +12,8 @@ frm.addEventListener("submit", (e) =>{
     numeros.push(num)
     
     resp1.innerText = "Números: " + numeros.join(", ")
+    resp2.innerHTML = ""
+    
     frm.inNumero.value = ""
     frm.inNumero.focus()
 })
@@ -22,6 +24,13 @@ frm.inVerificar.addEventListener("click", () =>{
         inNumero.focus()
         return
     }   
-    
-    
+    let ordem = true
+
+    for(let i = 0; i < numeros.length - 1; i++) {
+        if(numeros[i] > numeros[i + 1]) {
+            ordem = false
+            break
+        }
+    }
+    resp2.innerText = ordem ? "Ok, Números estão em ordem crescente" : "Atenção... Números não estão em ordem crescente" 
 })
