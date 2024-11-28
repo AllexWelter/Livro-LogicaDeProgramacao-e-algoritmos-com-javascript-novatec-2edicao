@@ -77,6 +77,8 @@ Capítulo aborda Repetições, com variável de controle ___laços for___, repet
 
 Atualização mediante leitura...
 
+[]()
+
 
 
 
