@@ -83,7 +83,7 @@ Atualização mediante leitura...
 
 [REVENDA HERBIE](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/REVENDA%20HERBIE)
 
-[]()
+[BRINQUEDOTECA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/BRINQUEDOTECA)
 
 []()
 
