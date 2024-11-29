@@ -75,7 +75,7 @@ Capítulo aborda Repetições, com variável de controle ___laços for___, repet
 ---
 ### Capítulo 6 - Vetores
 
-Atualização mediante leitura...
+Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()___ e ___pop()___,*(Splice e Slice)*, tamanho do vetor e exibição de itens com ___tostring()___, ___join()___ e ___.repeat(num)___, ___FOR..OF___ e ___FOREACH()___, localização de conteúdo com ___indexOf()___, ___lastindexOf()___ e ___includes___, vetores de objetos, desestruturação e operadores ___REST/SPREAD___, pesquisar e filtrar dados, __MAP__, ___FILTER___ e ___REDUCE___, e classificar os itens do vetor com, ___sort()___ e ___reverse()___,
 
 [CONSULTÓRIO ODONTOLÓGICO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/CONSULTÓRIO%20ODONTOLÓGICO)
 
