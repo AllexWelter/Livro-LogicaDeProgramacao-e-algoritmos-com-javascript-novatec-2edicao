@@ -91,6 +91,11 @@ Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()__
 
 [CONCURSO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/CONCURSO)
 
+---
+### Capítulo 7 - Strings e datas
+
+Atualização mediante leitura do livro...
+
 
 
 
