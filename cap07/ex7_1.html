@@ -1,3 +1,4 @@
+<!--
 <script>
     const anuncio = prompt("Anúncio: ")           //lê anúncio
     let numPalavras = 0                           //inicializa contador
@@ -8,5 +9,17 @@
         }
     }
     //exibe anúncio e número de palavras (que é o n° de espaços + 1)
+    alert(`Anúncio: ${anuncio}\nN° Palavras: ${numPalavras + 1} `)
+</script>
+-->
+
+<script>
+    const anuncio = prompt("Anúncio: ")
+    let numPalavras = 0                                  //inicializa contador
+    for (const letra of anuncio) {                       //percorre os caracteres do anúncio
+        if (letra == " ") {                              //se encontrou um espaço
+            numPalavras++                                //incrementa contador
+        }
+    }
     alert(`Anúncio: ${anuncio}\nN° Palavras: ${numPalavras + 1} `)
 </script>
