@@ -79,9 +79,9 @@ Atualização mediante leitura...
 
 [CONSULTÓRIO ODONTOLÓGICO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/CONSULTÓRIO%20ODONTOLÓGICO)
 
-[]()
+[DESCUBRA O NÚMERO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/DESCUBRA%20O%20NÚMERO)
 
-[]()
+[REVENDA HERBIE](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/REVENDA%20HERBIE)
 
 []()
 
