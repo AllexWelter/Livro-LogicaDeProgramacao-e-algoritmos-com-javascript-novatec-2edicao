@@ -85,9 +85,11 @@ Atualização mediante leitura...
 
 [BRINQUEDOTECA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/BRINQUEDOTECA)
 
-[]()
+[JOGOS ELIMINATÓRIOS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/JOGOS%20ELIMINATÓRIOS)
 
-[]()
+[NÚMEROS EM ORDEM](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/NÚMEROS%20EM%20ORDEM)
+
+[CONCURSO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/CONCURSO)
 
 
 
