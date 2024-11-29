@@ -77,6 +77,16 @@ Capítulo aborda Repetições, com variável de controle ___laços for___, repet
 
 Atualização mediante leitura...
 
+[CONSULTÓRIO ODONTOLÓGICO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/CONSULTÓRIO%20ODONTOLÓGICO)
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
 []()
 
 
