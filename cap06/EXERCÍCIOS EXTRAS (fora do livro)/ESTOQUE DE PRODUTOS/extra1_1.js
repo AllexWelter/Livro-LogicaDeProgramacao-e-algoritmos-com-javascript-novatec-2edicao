@@ -10,3 +10,23 @@ Remover produto: Deve permitir que o usuário remova produtos do estoque com bas
 Listar produtos com estoque zerado: Ao clicar em um botão, listar todos os produtos cuja quantidade seja igual a zero.
     Caso não haja produtos com estoque zero, exibir uma mensagem apropriada.
 */
+
+
+const frm = document.querySelector("form")
+const resp1 = document.querySelector("#outResp1")
+const resp2 = document.querySelector("#outResp2")
+const resp3 = document.querySelector("#outResp3")
+const produtos = []
+
+frm.addEventListener("submit", (e) => {
+    e.preventDefault()
+    
+    const nome = frm.inNome.value
+    const num = Number(frm.inQuantidade.value)
+    produtos.push(nome, num)
+    
+    frm.inNome.value = ""
+    frm.inQuantidade.value = ""
+    frm.inNome.focus()
+
+})
