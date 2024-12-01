@@ -9,9 +9,4 @@ Remover produto: Deve permitir que o usuário remova produtos do estoque com bas
 
 Listar produtos com estoque zerado: Ao clicar em um botão, listar todos os produtos cuja quantidade seja igual a zero.
     Caso não haja produtos com estoque zero, exibir uma mensagem apropriada.
-
-
-
-
-
 */
