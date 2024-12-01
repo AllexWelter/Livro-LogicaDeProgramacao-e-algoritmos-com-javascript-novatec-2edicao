@@ -23,10 +23,23 @@ frm.addEventListener("submit", (e) => {
     
     const nome = frm.inNome.value
     const num = Number(frm.inQuantidade.value)
-    produtos.push(nome, num)
+    produtos.push({nome, num})           //objeto deve ser declado entre {}
     
     frm.inNome.value = ""
     frm.inQuantidade.value = ""
     frm.inNome.focus()
 
+    frm.btListar.dispatchEvent(new Event("click"))      //dispara click em btListar   
+})
+
+frm.btListar.addEventListener("click", () =>{
+    if(produtos.length == 0) {
+        alert("Favor inserir dados corretamente!")
+        return
+    }
+    let lista = ""
+    for(const produto of produtos) {
+        lista += produto.nome + " - " + produto.num + "\n"
+    }
+    resp1.innerText = lista    
 })
