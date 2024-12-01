@@ -66,6 +66,12 @@ frm.btListar.addEventListener("click", () =>{
 frm.btRemover.addEventListener("click", () =>{
     const nome = frm.inNome.value.trim()
 
+    if(nome === "") {
+        alert("Por favor, informe o nome do produto a ser removido.")
+        frm.inNome.focus()
+        return
+    }
+
     if(produtos.length == 0) {
         alert("Produto não localizado ou não existe produto para remoção!")
         return
