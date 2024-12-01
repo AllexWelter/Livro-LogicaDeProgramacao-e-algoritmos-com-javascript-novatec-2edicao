@@ -34,12 +34,20 @@ frm.addEventListener("submit", (e) => {
 
 frm.btListar.addEventListener("click", () =>{
     if(produtos.length == 0) {
-        alert("Favor inserir dados corretamente!")
+        alert("Favor inserir dados!")
         return
     }
     let lista = ""
     for(const produto of produtos) {
-        lista += produto.nome + " - " + produto.num + "\n"
+        lista += produto.nome + " -> " + produto.num + "\n"
     }
     resp1.innerText = lista    
+})
+
+frm.btRemover.addEventListener("click", () =>{
+    if(produtos.length == 0) {
+        alert("Produto não localizado ou não existe produto para remoção!")
+    }
+
+
 })
