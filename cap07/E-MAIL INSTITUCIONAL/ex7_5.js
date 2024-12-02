@@ -8,7 +8,7 @@ frm.addEventListener("submit", (e) =>{
     //divide o nome em itens de vetor, criados a cada ocorrência do espaço 
     const partes = funcionario.split(" ")
     let email = ""                                   //vai concatenar letras
-    const tam = funcionario.length                   //obtém número de itens do vetor partes
+    const tam = partes.length                        //obtém número de itens do vetor partes
 
 
     for(let i = 0; i < tam -1; i++) {                   //percorre itens do vetor (exceto o último)
