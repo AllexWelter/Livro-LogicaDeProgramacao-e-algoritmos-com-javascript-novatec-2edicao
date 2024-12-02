@@ -1,7 +1,6 @@
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("#outResp1")
 const resp2 = document.querySelector("#outResp2")
-const resp3 = document.querySelector("#outResp3")
 const alunos = []
 
 frm.addEventListener("submit", (e) =>{
@@ -69,9 +68,9 @@ frm.btPresenca.addEventListener("click", () =>{
     const presente = alunos.includes(nomeVerificar)
 
     if(presente) {
-        resp3.innerText = nomeVerificar + "está na lista."
+        resp2.innerText = nomeVerificar + " está na lista."
     } else {
-        resp3.innerText = nomeVerificar + "está ausente na lista."
+        resp2.innerText = nomeVerificar + " está ausente na lista."
     }
 
 
