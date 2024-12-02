@@ -8,14 +8,31 @@ frm.addEventListener("submit", (e) =>{
     e.preventDefault()
 
     const aluno = frm.inAluno.value
-    alunos.push = (aluno)
+    alunos.push(aluno)    //chamar o método push() como função 
 
-    frm.bListar.dispatchEvent(new Event("click"))
+    frm.btListar.dispatchEvent(new Event("click"))
 
     frm.inAluno.value = ""
     frm.inAluno.focus()
 })
 
-frm.bListar.addEventListener("click", () =>{
+frm.btListar.addEventListener("click", () =>{
+    if(alunos.length == 0) {
+        alert("A lista de Alunos está vazia!")
+        frm.inAluno.focus()
+        return
+    }
+  
+    let lista = " "
     
+    for(let i = 0; i < alunos.length; i++) {
+        lista += (i + 1) + ". " + alunos[i] + "\n"
+    }
+    resp1.innerText = lista
+})
+
+frm.btRemover.addEventListener("click", () =>{
+    if(alunos.length == 0) {
+        alert("Não há Aluno dentro da lista.")
+    }
 })
