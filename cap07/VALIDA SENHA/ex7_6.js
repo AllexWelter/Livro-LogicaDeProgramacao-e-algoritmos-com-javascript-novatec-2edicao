@@ -27,8 +27,15 @@ frm.addEventListener("submit", (e) =>{
     }
 
     //verifica se não possui símbolos ou "_"
-    if(senha.match(/[\W|_]/g)) {
+    if(!senha.match(/[\W|_]/g)) {
         erros.push("possuir símbolos (no mínimo, 1)")
+    }
+
+    //se vetor está vazio (significa que não foram encontrado erros)
+    if(erros.length == 0) {
+        resp.innerText = "Ok! Senha Válida."
+    } else {
+        resp.innerText = `Erro... a senha deve ${erros.join(", ")}`
     }
 
 })
