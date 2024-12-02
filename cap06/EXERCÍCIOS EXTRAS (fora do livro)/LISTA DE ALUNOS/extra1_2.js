@@ -18,7 +18,7 @@ frm.addEventListener("submit", (e) =>{
 
 frm.btListar.addEventListener("click", () =>{
     if(alunos.length == 0) {
-        alert("A lista de Alunos está vazia!")
+        alert("A lista de alunos está vazia!")
         frm.inAluno.focus()
         return
     }
@@ -33,6 +33,46 @@ frm.btListar.addEventListener("click", () =>{
 
 frm.btRemover.addEventListener("click", () =>{
     if(alunos.length == 0) {
-        alert("Não há Aluno dentro da lista.")
+        alert("Não há aluno dentro da lista.")
+        frm.inAluno.focus()
+        return
     }
+
+    const nomeRemover = prompt("Qual aluno deseja remover?")
+    if(nomeRemover == null || nomeRemover == "") {
+        return
+    }
+
+    const posicao = alunos.indexOf(nomeRemover)
+    if(posicao == -1) {
+        alert("Aluno não encontrado na lista")
+        return
+    }
+
+    alunos.splice(posicao, 1)
+
+    frm.btListar.dispatchEvent(new Event("click"))
+})
+
+frm.btPresenca.addEventListener("click", () =>{
+    if(alunos.length == 0){
+        alert("A lista de alunos está vazia!")
+        frm.inAluno.focus()
+        return
+    }
+
+    const nomeVerificar = prompt("Qual aluno deseja verificar?")
+    if(nomeVerificar == null || nomeVerificar == ""){
+        return
+    }
+    
+    const presente = alunos.includes(nomeVerificar)
+
+    if(presente) {
+        resp3.innerText = nomeVerificar + "está na lista."
+    } else {
+        resp3.innerText = nomeVerificar + "está ausente na lista."
+    }
+
+
 })
