@@ -9,10 +9,24 @@ frm.addEventListener("submit", (e) =>{
     const aluno = frm.inAluno.value
     alunos.push(aluno)    //chamar o método push() como função 
 
-    frm.btListar.dispatchEvent(new Event("click"))
+    frm.btListar.disabled = true
 
     frm.inAluno.value = ""
     frm.inAluno.focus()
+
+    // Chama a função que lista os alunos após adicionar um novo aluno
+    if (alunos.length == 0) {
+        alert("A lista de alunos está vazia!");
+        frm.inAluno.focus();
+        resp1.innerText = "";
+        return;
+    }
+
+    let lista = " ";
+    for (let i = 0; i < alunos.length; i++) {
+        lista += (i + 1) + ". " + alunos[i] + "\n";
+    }
+    resp1.innerText = lista;
 })
 
 frm.btListar.addEventListener("click", () =>{
@@ -50,7 +64,19 @@ frm.btRemover.addEventListener("click", () =>{
 
     alunos.splice(posicao, 1)
 
-    frm.btListar.dispatchEvent(new Event("click"))
+    // Atualiza a lista de alunos após remover um aluno
+    if(alunos.length == 0){
+        alert("A lista de alunos está vazia!")
+        frm.inAluno.focus()
+        resp1.innerText = ""; // Limpa a lista se estiver vazia
+        return
+    }
+
+    let lista = ""
+    for(let i = 0; i < alunos.length; i++){
+        lista += (i + 1) + ". " + alunos[i] + "\n"
+    }
+    resp1.innerText = lista
 })
 
 frm.btPresenca.addEventListener("click", () =>{
