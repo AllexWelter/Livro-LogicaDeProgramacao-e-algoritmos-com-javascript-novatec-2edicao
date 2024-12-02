@@ -3,7 +3,7 @@ const resp1 = document.querySelector("#outResp1")
 const resp2 = document.querySelector("#outResp2")
 const alunos = []
 
-frm.addEventListener("submit", (e) =>{
+frm.addEventListener("submit", (e) => {
     e.preventDefault()
 
     const aluno = frm.inAluno.value
@@ -29,35 +29,35 @@ frm.addEventListener("submit", (e) =>{
     resp1.innerText = lista;
 })
 
-frm.btListar.addEventListener("click", () =>{
-    if(alunos.length == 0) {
+frm.btListar.addEventListener("click", () => {
+    if (alunos.length == 0) {
         alert("A lista de alunos está vazia!")
         frm.inAluno.focus()
         return
     }
-  
+
     let lista = " "
-    
-    for(let i = 0; i < alunos.length; i++) {
+
+    for (let i = 0; i < alunos.length; i++) {
         lista += (i + 1) + ". " + alunos[i] + "\n"
     }
     resp1.innerText = lista
 })
 
-frm.btRemover.addEventListener("click", () =>{
-    if(alunos.length == 0) {
+frm.btRemover.addEventListener("click", () => {
+    if (alunos.length == 0) {
         alert("Não há aluno dentro da lista.")
         frm.inAluno.focus()
         return
     }
 
     const nomeRemover = prompt("Qual aluno deseja remover?")
-    if(nomeRemover == null || nomeRemover == "") {
+    if (nomeRemover == null || nomeRemover == "") {
         return
     }
 
     const posicao = alunos.indexOf(nomeRemover)
-    if(posicao == -1) {
+    if (posicao == -1) {
         alert("Aluno não encontrado na lista")
         return
     }
@@ -65,7 +65,7 @@ frm.btRemover.addEventListener("click", () =>{
     alunos.splice(posicao, 1)
 
     // Atualiza a lista de alunos após remover um aluno
-    if(alunos.length == 0){
+    if (alunos.length == 0) {
         alert("A lista de alunos está vazia!")
         frm.inAluno.focus()
         resp1.innerText = ""; // Limpa a lista se estiver vazia
@@ -73,31 +73,29 @@ frm.btRemover.addEventListener("click", () =>{
     }
 
     let lista = ""
-    for(let i = 0; i < alunos.length; i++){
+    for (let i = 0; i < alunos.length; i++) {
         lista += (i + 1) + ". " + alunos[i] + "\n"
     }
     resp1.innerText = lista
 })
 
-frm.btPresenca.addEventListener("click", () =>{
-    if(alunos.length == 0){
+frm.btPresenca.addEventListener("click", () => {
+    if (alunos.length == 0) {
         alert("A lista de alunos está vazia!")
         frm.inAluno.focus()
         return
     }
 
     const nomeVerificar = prompt("Qual aluno deseja verificar?")
-    if(nomeVerificar == null || nomeVerificar == ""){
+    if (nomeVerificar == null || nomeVerificar == "") {
         return
     }
-    
+
     const presente = alunos.includes(nomeVerificar)
 
-    if(presente) {
+    if (presente) {
         resp2.innerText = nomeVerificar + " está na lista."
     } else {
         resp2.innerText = nomeVerificar + " está ausente na lista."
     }
-
-
 })
