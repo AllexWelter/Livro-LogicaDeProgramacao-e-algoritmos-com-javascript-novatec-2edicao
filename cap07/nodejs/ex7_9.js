@@ -17,5 +17,10 @@ for (const simbolo of formula) {           //percorre os caracteres da fórmula
     if(fecha > abre) {
         break             //..sai da repetição
     }
+}
 
+if (abre == fecha) {
+    console.log("Ok! Fórmula correta (em relação aos parênteses)")
+} else {
+    console.log("Erro... Fórmula incorreta")
 }
