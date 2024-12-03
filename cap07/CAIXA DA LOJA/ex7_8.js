@@ -31,8 +31,9 @@ frm.addEventListener("submit", (e) =>{
 
         const total = valor + multa + juros       //calcula o total
 
-
-        frm.outMulta.value
+        frm.outMulta.value = multa.toFixed(2)     //exibe os valores com 2 decimais
+        frm.outJuros.value = juros.toFixed(2)
+        frm.outTotal.value = total.toFixed(2)
     }
 
 })
