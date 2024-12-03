@@ -14,7 +14,7 @@ frm.addEventListener("submit", (e) =>{
     const hoje = new Date()              //cria variáveis (instancia objetos)
     const vencto = new Date()            //do tipo Date()
 
-    const partes = dataVenc.split(" - ")      //data vem no formato aaaa-mm-dd
+    const partes = dataVenc.split("-")      //data vem no formato aaaa-mm-dd
     vencto.setDate(Number(partes[2]))
     vencto.setMonth(Number(partes[1]) - 1)
     vencto.setFullYear(Number(partes[0]))
