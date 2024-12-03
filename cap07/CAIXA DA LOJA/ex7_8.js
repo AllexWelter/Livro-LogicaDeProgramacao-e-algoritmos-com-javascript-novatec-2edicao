@@ -12,4 +12,8 @@ frm.addEventListener("submit", (e) =>{
     const valor = Number(frm.inValor.value)
 
     const hoje = new Date()              //cria variáveis (instancia objetos)
+    const vencto = new Date()            //do tipo Date()
+
+    const partes = dataVenc.split(" - ")      //data vem no formato aaaa-mm-dd
+    vencto.setDate(Number(partes[2]))
 })
