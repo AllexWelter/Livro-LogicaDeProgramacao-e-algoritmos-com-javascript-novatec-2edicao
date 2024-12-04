@@ -25,3 +25,33 @@ frm.addEventListener("submit", (e) => {
     resp.innerText = resposta
 })
 
+frm.btDecript.addEventListener("click", () => {
+    //verifica se as validações do form estão ok (no caso, mensagem is required)
+    if (!frm.checkValidity()) {
+        alert("Informe a mensagem criptografada")
+        frm.inMensagem.focus()
+        return   //retorna ao form
+    }
+
+    const mensagem = frm.inMensagem.value        //conteúdo do campo
+    const tam = mensagem.length
+    const metade = Math.floor(tam / 2)
+    let resposta = ""
+
+    if (tam % 2 == 0) {
+        for (let i = metade; i < tam; i++) {
+            resposta += mensagem.charAt(i)
+            resposta += mensagem.charAt(i - metade)
+        }
+    } else {
+        for (let i = metade; i < tam - 1; i++) {
+            resposta += mensagem.charAt(i)
+            resposta += mensagem.charAt(i - metade)
+        }
+        resposta += mensagem.charAt(tam - 1)
+    }
+    resp.innerText = resposta
+})
+
+
+
