@@ -7,8 +7,9 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open ex7_3.html",
-            "file": "/Users/allexwelter/Documents/MeusProjetos/livrojs/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/cap07/ex7_3.html"
+            "name": "Launch Chrome against localhost",
+            "url": "http://127.0.0.1:5500/cap07/CRIPTOGRAFIA/resp7_a.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
