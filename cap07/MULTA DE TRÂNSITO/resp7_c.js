@@ -4,11 +4,25 @@ c) Suponha que o prazo para o pagamento de uma infração de trânsito com desco
 
 
 const frm = document.querySelector("form")
-const resp1 = document.querySelector("#outResp1")
-const resp2 = document.querySelector("#outResp2")
+const resp1 = document.querySelector("#outDataLimite")
+const resp2 = document.querySelector("#outComDesconto")
 
 frm.addEventListener("submit", (e) =>{
     e.preventDefault()
 
     const data = frm.inData.value
+    const valor = Number(frm.inValor.value)
+
+    //declara variável do tipo date
+    const dataLimite = new Date()
+
+    //obtém as partes do tipo date
+    const partes = data.split("-")
+    //"seta" as partes da data
+    dataLimite.setDate(Number(partes[2]))
+    dataLimite.getMonth(Number(partes[1]) - 1)
+    dataLimite.getFullYear(Number(partes[0]))
+
+    const dia = dataLimite.getDate()
+
 })
