@@ -75,7 +75,7 @@ Capítulo aborda Repetições, com variável de controle ___laços for___, repet
 ---
 ### Capítulo 6 - Vetores
 
-Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()___ e ___pop()___,*(Splice e Slice)*, tamanho do vetor e exibição de itens com ___tostring()___, ___join()___ e ___.repeat(num)___, ___FOR..OF___ e ___FOREACH()___, localização de conteúdo com ___indexOf()___, ___lastindexOf()___ e ___includes___, vetores de objetos, desestruturação e operadores ___REST/SPREAD___, pesquisar e filtrar dados, __MAP__, ___FILTER___ e ___REDUCE___, e classificar os itens do vetor com, ___sort()___ e ___reverse()___,
+Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()___ e ___pop()___,*(Splice e Slice)*, tamanho do vetor e exibição de itens com ___tostring()___, ___join()___ e ___.repeat(num)___, ___FOR..OF___ e ___FOREACH()___, localização de conteúdo com ___indexOf()___, ___lastindexOf()___ e ___includes___, vetores de objetos, desestruturação e operadores ___REST/SPREAD___, pesquisar e filtrar dados, __MAP__, ___FILTER___ e ___REDUCE___, e classificar os itens do vetor com, ___sort()___ e ___reverse()___.
 
 [CONSULTÓRIO ODONTOLÓGICO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/CONSULTÓRIO%20ODONTOLÓGICO)
 
@@ -94,7 +94,7 @@ Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()__
 ---
 ### Capítulo 7 - Strings e datas
 
-Atualização mediante leitura do livro...
+Capítulo aborda Strings e datas, percorrendo os caracteres de uma string com ___charAt()___, cópia de caracteres e remoção de espaços da string com ___substr()___, ___substring()___, além do método ___trim()___, ___trimStart()___ e ___trimEnd()___, localizar um ou mais caracteres na string com ___indexOf()___, ___lastIndexOf()___ e ___includes()___, dividir a string em elementos de vetor com ___split()___, validar senha com o métodos ___match()___ utilizando expressões regulares ___ex:(/[A-Z]/g)___, substituição de caracteres com ___replace()___ e manipulação de datas com ___new Date()___ utilizando a instrução ___const hoje = new Date()___, métodos ___getDate()___, ___getMonth()___ e ___getFullYear()___ e métodos ___setDate()___, ___setMonth()___ e ___setFullYear()___
 
 [QUAL É A FRUTA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/QUAL%20É%20A%20FRUTA)
 
