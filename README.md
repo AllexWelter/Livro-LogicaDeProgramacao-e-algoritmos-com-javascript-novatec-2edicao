@@ -96,21 +96,21 @@ Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()__
 
 Atualização mediante leitura do livro...
 
-[]()
+[QUAL É A FRUTA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/QUAL%20É%20A%20FRUTA)
 
-[]()
+[NOME NO CRACHÁ](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/NOME%20NO%20CRACHÁ)
 
-[]()
+[E-MAIL INSTITUCIONAL](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/E-MAIL%20INSTITUCIONAL)
 
-[]()
+[VALIDA SENHA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/VALIDA%20SENHA)
 
-[]()
+[CAIXA DA LOJA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/CAIXA%20DA%20LOJA)
 
-[]()
+[CRIPTOGRAFIA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/CRIPTOGRAFIA)
 
-[]()
+[FRASE PALÍNDROMO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/FRASE%20PALÍNDROMO)
 
-[]()
+[MULTA DE TRÂNSITO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/MULTA%20DE%20TRÂNSITO)
 
 
 
