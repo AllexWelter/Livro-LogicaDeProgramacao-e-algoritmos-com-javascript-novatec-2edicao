@@ -20,8 +20,8 @@ frm.addEventListener("submit", (e) =>{
     const partes = data.split("-")
     //"seta" as partes da data
     dataLimite.setDate(Number(partes[2]))
-    dataLimite.getMonth(Number(partes[1]) - 1)
-    dataLimite.getFullYear(Number(partes[0]))
+    dataLimite.setMonth(Number(partes[1]) - 1)
+    dataLimite.setFullYear(Number(partes[0]))
 
     const dia = dataLimite.getDate()  //obtém o dia da multa
 
