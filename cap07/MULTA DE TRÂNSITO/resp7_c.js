@@ -4,7 +4,8 @@ c) Suponha que o prazo para o pagamento de uma infração de trânsito com desco
 
 
 const frm = document.querySelector("form")
-const resp = document.querySelector("h3")
+const resp1 = document.querySelector("#outResp1")
+const resp2 = document.querySelector("#outResp2")
 
 frm.addEventListener("submit", (e) =>{
     e.preventDefault()
