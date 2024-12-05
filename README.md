@@ -96,7 +96,21 @@ Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()__
 
 Atualização mediante leitura do livro...
 
+[]()
 
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
 
 
 
