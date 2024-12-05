@@ -23,6 +23,14 @@ frm.addEventListener("submit", (e) =>{
     dataLimite.getMonth(Number(partes[1]) - 1)
     dataLimite.getFullYear(Number(partes[0]))
 
-    const dia = dataLimite.getDate()
+    const dia = dataLimite.getDate()  //obtém o dia da multa
 
+    dataLimite.setDate(dia + 90)      //aumenta 90 dias na data da multa
+    const mes = dataLimite.getMonth() + 1
+    const ano = dataLimite.getFullYear()
+
+    const comDesconto = valor * 0.80
+
+    resp1.innerText = "Data limite para Pagto com Desconto: " + (dia < 10 ? "0" + dia : dia) + "/" + (mes < 10 ? "0" + mes : mes) + "/" + ano
+    resp2.innerText = "Valor com Desconto R$: " + comDesconto.toFixed(2)
 })
