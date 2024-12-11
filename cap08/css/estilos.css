@@ -11,3 +11,29 @@ img.normal {
     height: 300px;
     width: 300px;
 }
+
+img.alta {
+    float: left;
+    height: 420px;
+    width: 300px;
+}
+
+span {
+    margin-left: 70px;
+}
+
+select {
+    width: 150px;
+}
+
+.detalhes {
+    width: 380px;
+}
+
+.oculta {
+    display: none;
+}
+
+.exibe {
+    display: inline;
+}
