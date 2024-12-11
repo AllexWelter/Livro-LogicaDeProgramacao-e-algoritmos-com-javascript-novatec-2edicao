@@ -25,5 +25,11 @@ const classificarVeiculo = (ano) => {
     let classif
     if(ano == anoAtual) {                            //condições para definir classificação
         classif = "Novo"
-    } 
+    } else if (ano == anoAtual - 1 || ano == anoAtual - 2) {
+        classif = "Seminovo"
+    } else {
+        classif = "Usado"
+    }
+    return classif            //retorna a classificação 
 }
+
