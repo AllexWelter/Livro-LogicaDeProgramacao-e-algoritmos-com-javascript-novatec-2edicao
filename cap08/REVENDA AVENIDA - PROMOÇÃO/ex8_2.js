@@ -14,4 +14,7 @@ frm.addEventListener("submit", (e) =>{
     const entrada = calcularEntrada(preco, classificacao)     //... retorno às variáveis
     const parcela = (preco - entrada) / 10                    //usa retorno da função para cálculo
 
+    resp1.innerText = modelo + ' - ' + classificacao          //exibe as respostas
+    resp2.innerText = `Entrada R$: ${entrada.toFixed(2)}`
+    resp3.innerText = `+10x de R$: ${parcela.toFixed(2)}`
 })
