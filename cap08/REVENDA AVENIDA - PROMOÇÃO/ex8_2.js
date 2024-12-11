@@ -33,3 +33,6 @@ const classificarVeiculo = (ano) => {
     return classif            //retorna a classificação 
 }
 
+//função recebe valor e status do veículo como parâmetro
+const calcularEntrada = (valor, status) =>
+    status == "Novo" ? valor * 0.5 : valor * 0.3
