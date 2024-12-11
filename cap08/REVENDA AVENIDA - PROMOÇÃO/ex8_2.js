@@ -18,3 +18,12 @@ frm.addEventListener("submit", (e) =>{
     resp2.innerText = `Entrada R$: ${entrada.toFixed(2)}`
     resp3.innerText = `+10x de R$: ${parcela.toFixed(2)}`
 })
+
+//função recebe o ano do veículo como parâmetro
+const classificarVeiculo = (ano) => {
+    const anoAtual = new Date().getFullYear()         //obtém o ano atual
+    let classif
+    if(ano == anoAtual) {                            //condições para definir classificação
+        classif = "Novo"
+    } 
+}
