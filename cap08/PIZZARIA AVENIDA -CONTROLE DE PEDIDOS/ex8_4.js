@@ -32,4 +32,9 @@ frm.inDetalhes.addEventListener("blur", () => {      //quando o campo perde o fo
 
 frm.addEventListener("sbumit", (e) => {
     e.preventDefault()   //evita envio do form
+    let produto
+    if(frm.rbPizza.checked) {
+        const num = frm.inPizza.selectedIndex        //obtem o nº do item selecionado
+        produto = frm.inPizza.options[num].text       //texto do item selecionado
+    }
 })
