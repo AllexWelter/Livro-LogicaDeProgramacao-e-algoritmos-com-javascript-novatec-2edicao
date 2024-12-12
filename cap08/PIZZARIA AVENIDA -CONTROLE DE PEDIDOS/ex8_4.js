@@ -18,6 +18,18 @@ frm.inDetalhes.addEventListener("focus", () =>{    //quando campo recebe o foco
     if (frm.rbPizza.checked) {                     //se radiobutton rbPizza estiver marcado
         const pizza = frm.inPizza.value            //obtém value do item selecionado
         //uso do operador ternário, para indicar o número de sabores
-        
+        const num = pizza == "media" ? 2 : pizza == "grande" ? 3 : 4
+        //atributo placeholder exibe uma dica de preenchimento do campo
+        frm.inDetalhes.placeholder = `Até ${num} sabores`
     }
+})
+
+
+frm.inDetalhes.addEventListener("blur", () => {      //quando o campo perde o foco
+    frm.inDetalhes.placeholder = ""                  //limpa a dica de preenchimento
+})
+
+
+frm.addEventListener("sbumit", (e) => {
+    e.preventDefault()   //evita envio do form
 })
