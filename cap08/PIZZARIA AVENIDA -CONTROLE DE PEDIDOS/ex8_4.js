@@ -13,3 +13,11 @@ frm.rbBebida.addEventListener("click", () => {   // quando radio button é clica
     frm.inPizza.className = "oculta"             // oculta select das pizzas
     frm.inBebida.className = "exibe"             // exibe select das bebidas
 })
+
+frm.inDetalhes.addEventListener("focus", () =>{    //quando campo recebe o foco 
+    if (frm.rbPizza.checked) {                     //se radiobutton rbPizza estiver marcado
+        const pizza = frm.inPizza.value            //obtém value do item selecionado
+        //uso do operador ternário, para indicar o número de sabores
+        
+    }
+})
