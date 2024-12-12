@@ -30,7 +30,7 @@ frm.inDetalhes.addEventListener("blur", () => {      //quando o campo perde o fo
 })
 
 
-frm.addEventListener("sbumit", (e) => {
+frm.addEventListener("submit", (e) => {
     e.preventDefault()   //evita envio do form
     let produto
     if(frm.rbPizza.checked) {
@@ -41,5 +41,9 @@ frm.addEventListener("sbumit", (e) => {
         produto = frm.inBebida.options[num].text
     }
     const detalhes = frm.inDetalhes.value           //conteúdo do inDetalhes
-    itens.push(produto + " (" + detalhes + ")")
+    itens.push(produto + " (" + detalhes + ")")     //adiciona ao vetor
+    resp.innerText = itens.join("\n")               //exibe os itens pedido
+
+    frm.reset()        //limpa o form
+    frm.rbPizza.dispatchEvent(new Event("click"))   //dispara click em rbPizza
 })
