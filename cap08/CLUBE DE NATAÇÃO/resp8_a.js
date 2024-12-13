@@ -15,5 +15,21 @@ frm.addEventListener("submit", (e) =>{
     const nome = frm.inAtleta.value
     const idade = Number(frm.inIdade.value)
 
-    
+    const sublinhado = gerarTracos(atleta)
+    const categoria = verCategoria(idade)
+
 })
+
+
+const gerarTracos = nome => {
+    let tracos = ""
+
+    for (const letra of nome) {
+        if (letra != " ") {
+            tracos += "_"
+        } else {
+            tracos += " "
+        }
+    }
+        return tracos
+}
