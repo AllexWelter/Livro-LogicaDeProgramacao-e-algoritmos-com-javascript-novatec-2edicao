@@ -50,6 +50,10 @@ function pesquisar() {
     }
 }
 
+function calcularMedia() {
+    titulo ("===< Média e Destaques do Cadastro de Vinhos >===")
+}
+
 //Programa Principal
 
 do{
