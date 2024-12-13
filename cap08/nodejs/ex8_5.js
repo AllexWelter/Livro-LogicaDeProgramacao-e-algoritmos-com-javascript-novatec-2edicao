@@ -53,7 +53,11 @@ function pesquisar() {
 function calcularMedia() {
     titulo ("===< Média e Destaques do Cadastro de Vinhos >===")
 
-    const num = vinhos.length                    //obtém número de elementos do vetor 
+    const num = vinhos.length                    //obtém número de elementos do vetor
+    if (num == 0) {
+        console.log("Não há vinhos cadastrados")
+        return
+    } 
 }
 
 //Programa Principal
