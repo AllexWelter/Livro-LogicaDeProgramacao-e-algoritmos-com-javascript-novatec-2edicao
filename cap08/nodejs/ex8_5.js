@@ -1,6 +1,6 @@
 const prompt = require("prompt-sync")()     //adiciona o pacote ao programa
 
-const vinhos = []      
+const vinhos = []      //declaração de array global
 
 function titulo(texto) {                   //recebe, por parâmetro, o texto a ser exibido
     console.log()
