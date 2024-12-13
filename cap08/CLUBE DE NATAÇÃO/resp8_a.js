@@ -33,3 +33,16 @@ const gerarTracos = nome => {
     }
         return tracos
 }
+
+const verCategoria = idade => {
+    let cat
+
+    if(idade <= 12) {
+        cat = "Infantil"
+    } else if (idade <= 18) {
+        cat = "Juvenil"
+    } else {
+        cat = "Adulto"
+    }
+        return cat
+}
