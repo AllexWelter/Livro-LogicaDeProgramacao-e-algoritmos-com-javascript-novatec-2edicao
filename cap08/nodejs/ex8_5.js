@@ -19,6 +19,15 @@ function incluir() {
     console.log("Ok! Vinho cadastrado com sucesso!")    
 }
 
+function listar() {
+    titulo("===< Lista de Vinhos Cadastrados >===")
+    console.log("Marca..........Tipo..........Preço R$:")
+
+    //percorre o vetor para exibir todos os vinhos
+    for (const vinho of vinhos) {
+        console.log(`${vinho.marca.padEnd(20)} ${vinho.tipo.padEnd(20)} ${vinho.preco.toFixed(2).padStart(9)}`)
+    }
+}
 
 //Programa Principal
 
