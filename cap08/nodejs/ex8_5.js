@@ -12,7 +12,7 @@ function titulo(texto) {                   //recebe, por parâmetro, o texto a s
 //Programa Principal
 
 do{
-    titulo('===< Cadastro de Vinhos ===>')
+    titulo('===< Cadastro de Vinhos >===')
     console.log("1. Inclusão de Vinho")
     console.log("2. Listagem de Vinhos")
     console.log("3. Pesquisa de Tipo")
