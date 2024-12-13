@@ -24,5 +24,11 @@ do{
         incluir()
     } else if (opcao == 2) {
         listar()
+    } else if (opcao == 3) {
+        pesquisar()
+    } else if (opcao == 4) {
+        calcularMedia()
+    } else {
+        break
     }
 }
