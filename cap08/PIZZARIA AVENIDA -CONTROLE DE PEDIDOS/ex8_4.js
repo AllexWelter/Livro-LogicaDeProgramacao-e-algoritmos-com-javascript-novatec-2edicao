@@ -26,7 +26,7 @@ frm.inDetalhes.addEventListener("focus", () =>{    //quando campo recebe o foco
 
 
 frm.inDetalhes.addEventListener("blur", () => {      //quando o campo perde o foco
-    frm.inDetalhes.placeholder = ""                  //limpa a dica de preenchimento
+    frm.inDetalhes.placeholder = "Insira aqui seus detalhes"                  //limpa a dica de preenchimento
 })
 
 
