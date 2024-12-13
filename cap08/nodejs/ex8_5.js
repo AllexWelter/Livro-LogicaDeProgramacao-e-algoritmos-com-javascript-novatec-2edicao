@@ -3,9 +3,9 @@ const prompt = require("prompt-sync")()     //adiciona o pacote ao programa
 const vinhos = []      //declaração de array global
 
 function titulo(texto) {                   //recebe, por parâmetro, o texto a ser exibido
-    console.log()
-    console.log(texto)
-    console.log("=".repeat(40))
+    console.log()                          // pula uma linha
+    console.log(texto)                     // texto (===< Cadastro de Vinhos >===)
+    console.log("=".repeat(40))            // repete = 40x --> ========================================
 
 }
 
@@ -31,6 +31,6 @@ do{
     } else if (opcao == 5) {
         break
     } else {
-        console.log("Opção Inválida")
+        console.log("Opção Inválida!")
     }
 } while (true)
