@@ -8,3 +8,14 @@ function titulo(texto) {                   //recebe, por parâmetro, o texto a s
     console.log("=".repeat(40))
 
 }
+
+//Programa Principal
+
+do{
+    titulo('===< Cadastro de Vinhos ===>')
+    console.log("1. Inclusão de Vinho")
+    console.log("2. Listagem de Vinhos")
+    console.log("3. Pesquisa de Tipo")
+    console.log("4. Média e Destaques")
+    console.log("5. Finalizar")
+}
