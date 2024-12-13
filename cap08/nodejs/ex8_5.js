@@ -58,6 +58,11 @@ function calcularMedia() {
         console.log("Não há vinhos cadastrados")
         return
     } 
+
+    let total = 0                               //para acumular o total
+    for (const vinho of vinhos) {
+        total += vinho.preco
+    }
 }
 
 //Programa Principal
