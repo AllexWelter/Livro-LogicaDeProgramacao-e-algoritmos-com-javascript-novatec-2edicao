@@ -18,4 +18,5 @@ do{
     console.log("3. Pesquisa de Tipo")
     console.log("4. Média e Destaques")
     console.log("5. Finalizar")
+    const opcao = Number(prompt("Opção: "))
 }
