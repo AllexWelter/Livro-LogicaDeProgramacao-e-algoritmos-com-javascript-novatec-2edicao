@@ -21,7 +21,7 @@ function incluir() {
 
 function listar() {
     titulo("===< Lista de Vinhos Cadastrados >===")
-    console.log("Marca..........Tipo..........Preço R$:")
+    console.log("Marca..................Tipo..................Preço R$:")
 
     //percorre o vetor para exibir todos os vinhos
     for (const vinho of vinhos) {
