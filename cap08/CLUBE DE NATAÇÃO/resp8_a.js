@@ -12,11 +12,13 @@ const resp = document.querySelector("pre")
 frm.addEventListener("submit", (e) =>{
     e.preventDefault()
 
-    const nome = frm.inAtleta.value
+    const atleta = frm.inAtleta.value
     const idade = Number(frm.inIdade.value)
 
     const sublinhado = gerarTracos(atleta)
     const categoria = verCategoria(idade)
+
+    resp.innerText = atleta + "\n" + sublinhado + "\n" + "Categoria: " + categoria
 
 })
 
@@ -26,7 +28,7 @@ const gerarTracos = nome => {
 
     for (const letra of nome) {
         if (letra != " ") {
-            tracos += "_"
+            tracos += "-"
         } else {
             tracos += " "
         }
