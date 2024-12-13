@@ -40,7 +40,13 @@ function pesquisar() {
     for (const vinho of vinhos) {
         if (vinho.tipo.toUpperCase().includes(pesq.toUpperCase())) {
             console.log(`${vinho.marca.padEnd(20)} ${vinho.tipo.padEnd(20)} ${vinho.preco.toFixed(2).padStart(9)}`)
+            contador++   //se entrou no if, incrementa o contador
         }
+    }
+
+    //se percorreu todos os vinhos e contador continua == 0, significa que não há
+    if (contador == 0) {
+        console.log(`Obs.: Não há vinhos cadastrados do tipo "${tipo}`)
     }
 }
 
