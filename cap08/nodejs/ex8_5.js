@@ -73,9 +73,9 @@ function calcularMedia() {
     const menor = vinhos2[0]                  //menor preço é o primeiro (posição 0)
     const maior = vinhos2[num-1]              //maior preço é o último (posição num -1)
 
-    console.log
-    console.log
-    console.log
+    console.log(`Preço Médio dos Vinhos R$: ${media.toFixed(2)}`)
+    console.log(`Menor Valor R$: ${menor.preco.toFixed(2)} - ${menor.marca}`)
+    console.log(`Maior Valor R$: ${maior.preco.toFixed(2)} - ${maio.marca} `)
 }
 
 //Programa Principal
