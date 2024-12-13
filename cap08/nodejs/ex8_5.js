@@ -33,6 +33,9 @@ function pesquisar() {
     titulo ("===< Pesquisa por Tipo de Vinho >===")
 
     const pesq = prompt("Tipo: ")    //lê o tipo de vinho a pesquisar
+
+    let contador = 0                 //contador para verificar se existe
+    console.log("Marca..................Tipo..................Preço R$:")
 }
 
 //Programa Principal
