@@ -10,7 +10,11 @@ function titulo(texto) {                   //recebe, por parâmetro, o texto a s
 }
 
 function incluir() {
+    titulo("===< Inclusão de Vinhos >===")   
     
+    const marca = prompt("Marca...: ")           //lê dados do vinho
+    const tipo = prompt("Tipo...: ")
+    const preco = Number(prompt("Preço R$: "))    
 }
 
 
