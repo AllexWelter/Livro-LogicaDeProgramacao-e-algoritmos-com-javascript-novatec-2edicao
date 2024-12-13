@@ -63,6 +63,12 @@ function calcularMedia() {
     for (const vinho of vinhos) {
         total += vinho.preco
     }
+
+    const media = total / num                  //calcula o preço médio
+
+    const vinhos2 = [...vinhos]               //cria uma cópia do vetor original
+
+    vinhos2.sort((a, b) => a.preco - b.preco) //ordena por preço
 }
 
 //Programa Principal
