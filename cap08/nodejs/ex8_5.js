@@ -69,6 +69,9 @@ function calcularMedia() {
     const vinhos2 = [...vinhos]               //cria uma cópia do vetor original
 
     vinhos2.sort((a, b) => a.preco - b.preco) //ordena por preço
+
+    const menor = vinhos2[0]                  //menor preço é o primeiro (posição 0)
+    const maior = vinhos2[num-1]              //maior preço é o último (posição num -1)
 }
 
 //Programa Principal
