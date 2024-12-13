@@ -1,0 +1,1 @@
+const prompt = require("prompt-sync")()     //adiciona o pacote ao programa
