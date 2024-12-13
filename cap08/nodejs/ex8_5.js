@@ -75,7 +75,7 @@ function calcularMedia() {
 
     console.log(`Preço Médio dos Vinhos R$: ${media.toFixed(2)}`)
     console.log(`Menor Valor R$: ${menor.preco.toFixed(2)} - ${menor.marca}`)
-    console.log(`Maior Valor R$: ${maior.preco.toFixed(2)} - ${maio.marca} `)
+    console.log(`Maior Valor R$: ${maior.preco.toFixed(2)} - ${maior.marca} `)
 }
 
 //Programa Principal
