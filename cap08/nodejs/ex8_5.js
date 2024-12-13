@@ -19,4 +19,10 @@ do{
     console.log("4. Média e Destaques")
     console.log("5. Finalizar")
     const opcao = Number(prompt("Opção: "))
+
+    if (opcao == 1) {
+        incluir()
+    } else if (opcao == 2) {
+        listar()
+    }
 }
