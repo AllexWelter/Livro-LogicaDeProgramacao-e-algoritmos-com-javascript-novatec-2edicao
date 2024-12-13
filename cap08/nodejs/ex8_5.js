@@ -9,6 +9,11 @@ function titulo(texto) {                   //recebe, por parâmetro, o texto a s
 
 }
 
+function incluir() {
+    
+}
+
+
 //Programa Principal
 
 do{
