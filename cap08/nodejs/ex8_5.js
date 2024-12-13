@@ -16,7 +16,7 @@ function incluir() {
     const tipo = prompt("Tipo...: ")
     const preco = Number(prompt("Preço R$: "))
     vinhos.push({marca, tipo, preco})           //insere um objeto no vetor
-    console.log("Ok! Vinho cadastrado com sucesso")    
+    console.log("Ok! Vinho cadastrado com sucesso!")    
 }
 
 
