@@ -29,6 +29,12 @@ function listar() {
     }
 }
 
+function pesquisar() {
+    titulo ("===< Pesquisa por Tipo de Vinho >===")
+
+    const pesq = prompt("Tipo: ")    //lê o tipo de vinho a pesquisar
+}
+
 //Programa Principal
 
 do{
