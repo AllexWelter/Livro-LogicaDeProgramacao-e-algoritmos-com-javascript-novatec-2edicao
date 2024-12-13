@@ -52,6 +52,8 @@ function pesquisar() {
 
 function calcularMedia() {
     titulo ("===< Média e Destaques do Cadastro de Vinhos >===")
+
+    const num = vinhos.length                    //obtém número de elementos do vetor 
 }
 
 //Programa Principal
