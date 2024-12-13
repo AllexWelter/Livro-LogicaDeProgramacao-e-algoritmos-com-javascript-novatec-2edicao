@@ -5,3 +5,8 @@
     * categorizarAluno() - que receba um número como parâmetro e retorne a categoria do aluno, conforme indicação no enunciado do programa.
 
 */
+
+const frm = document.querySelector("form")
+const resp1 = document.querySelector("#outResp1")
+const resp2 = document.querySelector("#outResp2")
+
