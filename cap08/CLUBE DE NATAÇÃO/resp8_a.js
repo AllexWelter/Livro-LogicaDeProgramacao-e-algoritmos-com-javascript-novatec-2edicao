@@ -7,6 +7,13 @@
 */
 
 const frm = document.querySelector("form")
-const resp1 = document.querySelector("#outResp1")
-const resp2 = document.querySelector("#outResp2")
+const resp = document.querySelector("pre")
 
+frm.addEventListener("submit", (e) =>{
+    e.preventDefault()
+
+    const nome = frm.inAtleta.value
+    const idade = Number(frm.inIdade.value)
+
+    
+})
