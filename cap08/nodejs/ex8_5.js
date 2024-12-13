@@ -36,6 +36,12 @@ function pesquisar() {
 
     let contador = 0                 //contador para verificar se existe
     console.log("Marca..................Tipo..................Preço R$:")
+
+    for (const vinho of vinhos) {
+        if (vinho.tipo.toUpperCase().includes(pesq.toUpperCase())) {
+            console.log(`${vinho.marca.padEnd(20)} ${vinho.tipo.padEnd(20)} ${vinho.preco.toFixed(2).padStart(9)}`)
+        }
+    }
 }
 
 //Programa Principal
