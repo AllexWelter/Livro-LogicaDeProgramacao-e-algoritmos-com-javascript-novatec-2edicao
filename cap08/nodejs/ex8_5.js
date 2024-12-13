@@ -5,6 +5,6 @@ const vinhos = []
 function titulo(texto) {                   //recebe, por parâmetro, o texto a ser exibido
     console.log()
     console.log(texto)
-    console.log("=".reapeat(40))
+    console.log("=".repeat(40))
 
 }
