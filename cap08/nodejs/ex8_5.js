@@ -28,7 +28,9 @@ do{
         pesquisar()
     } else if (opcao == 4) {
         calcularMedia()
-    } else {
+    } else if (opcao = 5) {
         break
+    } else {
+        console.log("Opção Inválida")
     }
 } while (true)
