@@ -7,3 +7,7 @@
     * contarVogais() - que receba um nome e retorne o número de vogais deste, com dois dígitos
 
 */
+
+
+const frm = document.querySelector("form")
+const resp = document.querySelector("h3")
