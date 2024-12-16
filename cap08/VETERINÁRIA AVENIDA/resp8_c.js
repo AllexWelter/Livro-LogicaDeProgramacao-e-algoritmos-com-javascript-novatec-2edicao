@@ -32,7 +32,6 @@ frm.addEventListener("submit", (e) =>{
 })
 
 
-
 frm.rbSim.addEventListener("click", () => {
     document.querySelector("#pConvenio").className = "exibe"
 
