@@ -21,7 +21,7 @@ frm.addEventListener("submit", (e) =>{
         const sobrenome = obterSobrenome(aluno)
         const vogais = contarVogais(aluno)
 
-        resp.innerText = `Senha Inicial:${sobrenome} + ${parseInt(vogais)}` 
+        resp.innerText = `Senha Inicial: ${sobrenome}${vogais.toString().padStart(2, "0")}` 
 
 })
   
@@ -48,6 +48,7 @@ const contarVogais = nome => {
             contador++
         } 
     } 
+    return contador
 }
 
 
