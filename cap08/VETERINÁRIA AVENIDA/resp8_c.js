@@ -33,6 +33,6 @@ frm.rbNao.addEventListener("click", () =>{
 })
 
 
-const calcularDesconto = (valor, conv) => {
+const calcularDesconto = (valor, taxa) => {
     frm
 }
