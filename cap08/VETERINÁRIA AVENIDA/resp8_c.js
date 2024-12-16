@@ -11,5 +11,8 @@ const resp2 = document.querySelector("#outPagar")
 frm.addEventListener("submit", (e) =>{
     e.preventDefault()
 
+    const valor = Number(frm.inValor.value)
+    const conv = frm.pConvenio.value
+
     
 })
