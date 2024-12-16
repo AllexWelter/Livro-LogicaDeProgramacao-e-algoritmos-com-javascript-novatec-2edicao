@@ -14,16 +14,25 @@ frm.addEventListener("submit", (e) =>{
 
     const valor = Number(frm.inValor.value)
     
+
+
+
+
+
 })
+
+
 
 frm.rbSim.addEventListener("click", () => {
     document.querySelector("#pConvenio").className = "exibe"
-      
+
+})
+
+frm.rbNao.addEventListener("click", () =>{
+    document.querySelector("#pConvenio").className = "oculta"
 })
 
 
 const calcularDesconto = (valor, conv) => {
-
- 
-    
+    frm
 }
