@@ -21,26 +21,24 @@ frm.addEventListener("submit", (e) =>{
         const sobrenome = obterSobrenome(aluno)
         const vogais = contarVogais(aluno)
 
-        resp.innerText = sobrenome + vogais 
+        resp.innerText = `Senha Inicial:${sobrenome} + ${parseInt(vogais)}` 
 
 })
-
-//validarNome() - que receba um nome como parâmetro e retorne true (nome completo) ou false (nome incompleto).  
+  
 const validarNome = nome => {  
     if(nome.includes(" ")) {
         return true
     } else {
         alert("Por favor, informe um nome completo.")
+        return false
     }       
 }
   
 const obterSobrenome = nome => {
     const partes = nome.split(" ")
-    return partes[partes.length - 1]
-
+    return partes[partes.length - 1].toLowerCase()
 }  
-
-                     
+   
 const contarVogais = nome => {
     const vogais = "aeiouAEIOU"
     let contador = 0
