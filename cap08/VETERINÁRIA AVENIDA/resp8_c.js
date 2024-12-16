@@ -32,7 +32,4 @@ frm.rbNao.addEventListener("click", () =>{
     document.querySelector("#pConvenio").className = "oculta"
 })
 
-
-const calcularDesconto = (valor, taxa) => {
-    frm
-}
+const calcularDesconto = (valor, taxa) => valor * (taxa/100)
