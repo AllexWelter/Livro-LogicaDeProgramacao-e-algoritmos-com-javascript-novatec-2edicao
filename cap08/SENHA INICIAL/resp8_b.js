@@ -23,11 +23,9 @@ frm.addEventListener("submit", (e) =>{
 
 
 const validarNome = nome => { 
-    for(const letras of nome) {
-        if (letras = " ") {
-            true
-        } else {
-            false
-        }
+    if(nome = " ") {
+        true
+    } else {
+        false
     }
 }
