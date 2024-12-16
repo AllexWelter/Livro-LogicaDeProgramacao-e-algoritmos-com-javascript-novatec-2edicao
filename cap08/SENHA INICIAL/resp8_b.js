@@ -18,14 +18,19 @@ frm.addEventListener("submit", (e) =>{
         const aluno = frm.inAluno.value
 
         const nomeValido = validarNome(aluno)
+        const sobrenome = obterSobrenome
 
 })
 
 
-const validarNome = nome => { 
+const validarNome = nome => {
+    let nome = "" 
     if(nome = " ") {
         true
     } else {
         false
     }
+    return nome
 }
+
+const obterSobrenome = nome 
