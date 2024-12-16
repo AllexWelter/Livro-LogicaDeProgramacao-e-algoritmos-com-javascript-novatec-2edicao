@@ -17,7 +17,11 @@ frm.addEventListener("submit", (e) =>{
 
         const aluno = frm.inAluno.value
 
-        const nomeValido = validarNome(aluno)
+        if(validarNome(aluno) == false) {
+            resp.innerText = " "
+            return
+        }
+
         const sobrenome = obterSobrenome(aluno)
         const vogais = contarVogais(aluno)
 
