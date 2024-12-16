@@ -4,7 +4,8 @@
 
 */
 
-const fmr = document.querySelector("form")
+const frm = document.querySelector("form")
+const convenio = document.querySelector("#pConvenio")
 const resp1 = document.querySelector("#outDesconto")
 const resp2 = document.querySelector("#outPagar")
 
@@ -12,17 +13,17 @@ frm.addEventListener("submit", (e) =>{
     e.preventDefault()
 
     const valor = Number(frm.inValor.value)
-    const conv = frm.pConvenio.value
-
-
+    
 })
 
 frm.rbSim.addEventListener("click", () => {
-    frm.pConvenio.className = "exibe"  
+    document.querySelector("#pConvenio").className = "exibe"
+      
 })
 
 
-
 const calcularDesconto = (valor, conv) => {
+
+ 
     
 }
