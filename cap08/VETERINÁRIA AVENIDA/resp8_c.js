@@ -17,6 +17,12 @@ frm.addEventListener("submit", (e) =>{
 
 })
 
+frm.rbSim.addEventListener("click", () => {
+    frm.pConvenio.className = "exibe"  
+})
+
+
+
 const calcularDesconto = (valor, conv) => {
     
 }
