@@ -14,5 +14,9 @@ frm.addEventListener("submit", (e) =>{
     const valor = Number(frm.inValor.value)
     const conv = frm.pConvenio.value
 
-    
+
 })
+
+const calcularDesconto = (valor, conv) => {
+    
+}
