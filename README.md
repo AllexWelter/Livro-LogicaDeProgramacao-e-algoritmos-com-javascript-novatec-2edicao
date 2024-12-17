@@ -35,6 +35,8 @@ Capítulo aborda o Node.Js, sua instalação, adição do pacote ___prompt-sync(
 
 capítulo aborda Condições, operadores relacionais, lógicos e operador ternário. Traz também Switch...Case.
 
+Exercícios do capítulo: 
+
 [PESO IDEAL](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/PESO%20IDEAL)
 
 [FUSO HORÁRIO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap04/FUSO%20HORÁRIO)
@@ -55,6 +57,8 @@ capítulo aborda Condições, operadores relacionais, lógicos e operador terná
 ### Capítulo 5 - Repetições
 
 Capítulo aborda Repetições, com variável de controle ___laços for___, repetição com teste no início ___laços while___, repetição com teste no final ___laços do..while___, interrupções no laços (break e continue), contadores e acumuladores, além de depuração do programas (detecção de erros).
+
+Exercícios do capítulo: 
 
 [TABUADA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap05/TABUADA)
 
@@ -77,6 +81,8 @@ Capítulo aborda Repetições, com variável de controle ___laços for___, repet
 
 Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()___ e ___pop()___,*(Splice e Slice)*, tamanho do vetor e exibição de itens com ___tostring()___, ___join()___ e ___.repeat(num)___, ___FOR..OF___ e ___FOREACH()___, localização de conteúdo com ___indexOf()___, ___lastindexOf()___ e ___includes___, vetores de objetos, desestruturação e operadores ___REST/SPREAD___, pesquisar e filtrar dados, __MAP__, ___FILTER___ e ___REDUCE___, e classificar os itens do vetor com, ___sort()___ e ___reverse()___.
 
+Exercícios do capítulo: 
+
 [CONSULTÓRIO ODONTOLÓGICO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/CONSULTÓRIO%20ODONTOLÓGICO)
 
 [DESCUBRA O NÚMERO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap06/DESCUBRA%20O%20NÚMERO)
@@ -95,6 +101,8 @@ Capítulo aborda Vetores, com métodos de inclusão ___push()___, ___unshift()__
 ### Capítulo 7 - Strings e datas
 
 Capítulo aborda Strings e datas, percorrendo os caracteres de uma string com ___charAt()___, cópia de caracteres e remoção de espaços da string com ___substr()___, ___substring()___, além do método ___trim()___, ___trimStart()___ e ___trimEnd()___, localizar um ou mais caracteres na string com ___indexOf()___, ___lastIndexOf()___ e ___includes()___, dividir a string em elementos de vetor com ___split()___, validar senha com o métodos ___match()___ utilizando expressões regulares ___ex:(/[A-Z]/g)___, substituição de caracteres com ___replace()___ e manipulação de datas com ___new Date()___ utilizando a instrução ___const hoje = new Date()___, métodos ___getDate()___, ___getMonth()___ e ___getFullYear()___ e métodos ___setDate()___, ___setMonth()___ e ___setFullYear()___.
+
+Exercícios do capítulo: 
 
 [QUAL É A FRUTA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap07/QUAL%20É%20A%20FRUTA)
 
@@ -115,7 +123,9 @@ Capítulo aborda Strings e datas, percorrendo os caracteres de uma string com __
 ---
 ### Capítulo 8 - Funções e Eventos
 
-Cpítulo aborda Funções e eventos, com ___ArrowFunctions(funções de seta)___, funções com passagem de parâmetros como o ___alert()___ utilizano parâmetros e argumentos, funções com retorno de valor com ___return()___ seguido do conteúdo de retorno, funções com parâmetros REST com o operador ___Rest(...)___ e utilização da palavra reservada ___arguments___ 
+Cpítulo aborda Funções e eventos, com ___ArrowFunctions(funções de seta)___, funções com passagem de parâmetros como o ___alert()___ utilizano parâmetros e argumentos, funções com retorno de valor com ___return()___ seguido do conteúdo de retorno, funções com parâmetros REST com o operador ___Rest(...)___ e utilização da palavra reservada ___arguments___, funções anônimas com o método ___setInterval()___ e eventos JavaScript com eventos de interface do usuário: ___load___, ___unload___, ___resize___, eventos de mouse: ___click___, ___dbclick___, ___mouseouver___, eventos de teclado: ___keypress___, ___keydown___, ___keyup___, e eventos de formulário: ___change___, ___focus___, ___blur___. 
+
+Exercícios do capítulo: 
 
 []()
 
