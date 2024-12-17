@@ -131,14 +131,15 @@ Exercícios do capítulo:
 
 [PIZZARIA AVENIDA -CONTROLE DE PEDIDOS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap08/PIZZARIA%20AVENIDA%20-CONTROLE%20DE%20PEDIDOS)
 
-[]()
+[CLUBE DE NATAÇÃO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap08/CLUBE%20DE%20NATAÇÃO)
 
-[]()
+[SENHA INICIAL](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap08/SENHA%20INICIAL)
 
-[]()
+[VETERINÁRIA AVENIDA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap08/VETERINÁRIA%20AVENIDA)
 
-[]()
+---
+### Capítulo 9 - Persistência de dados com localStorage
 
-[]()
+Atualização mediante leitura do livro...
 
 ---
