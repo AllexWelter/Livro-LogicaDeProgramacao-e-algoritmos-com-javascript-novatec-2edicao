@@ -115,6 +115,20 @@ Capítulo aborda Strings e datas, percorrendo os caracteres de uma string com __
 ---
 ### Capítulo 8 - Funções e Eventos
 
-Atualização mediante leitura do livro.....
+Cpítulo aborda Funções e eventos, com ___ArrowFunctions(funções de seta)___, funções com passagem de parâmetros como o ___alert()___ utilizano parâmetros e argumentos, funções com retorno de valor com ___return()___ seguido do conteúdo de retorno, funções com parâmetros REST com o operador ___Rest(...)___ e utilização da palavra reservada ___arguments___ 
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
+
+[]()
 
 ---
