@@ -129,7 +129,7 @@ Exercícios do capítulo:
 
 [REVENDA AVENIDA - PROMOÇÃO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap08/REVENDA%20AVENIDA%20-%20PROMOÇÃO)
 
-[]()
+[PIZZARIA AVENIDA -CONTROLE DE PEDIDOS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap08/PIZZARIA%20AVENIDA%20-CONTROLE%20DE%20PEDIDOS)
 
 []()
 
