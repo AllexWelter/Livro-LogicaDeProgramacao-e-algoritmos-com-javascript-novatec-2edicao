@@ -127,7 +127,7 @@ Cpítulo aborda Funções e eventos, com ___ArrowFunctions(funções de seta)___
 
 Exercícios do capítulo: 
 
-[]()
+[REVENDA AVENIDA - PROMOÇÃO](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap08/REVENDA%20AVENIDA%20-%20PROMOÇÃO)
 
 []()
 
