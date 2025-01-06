@@ -9,4 +9,10 @@ pre {
 
 .cores-Pelotas {
     color: blue;
+    background-color: yellow;
+}
+
+.cores-Farroupilha {
+    color: green;
+    background-color: white;
 }
