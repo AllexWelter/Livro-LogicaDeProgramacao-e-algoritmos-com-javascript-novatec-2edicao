@@ -34,7 +34,7 @@ frm.rbFarroupilha.addEventListener("change", trocarClube)
 
 const verificarClube = () => {
     if(localStorage.getItem("clube")) {                   //se já estiver salvo algum clube
-        const clube = localStorage.setItem("clube")       //obtém o nome do clube
+        const clube = localStorage.getItem("clube")       //obtém o nome do clube
 
         if (clube == "Brasil") {                          //conforme o clube, marca checked
             frm.rbBrasil.checked = true
