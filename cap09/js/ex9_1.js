@@ -23,7 +23,11 @@ const trocarClube = () => {
     imClube.alt = `Símbolo do ${clube}`                         //modifica atributo alt
 
     localStorage.setItem("clube", clube)                        //salva no navegador a escolha do cliente 
-
 }
 
+// associa ao evento change de cada botão do form a função trocarClube
+
+frm.rbBrasil.addEventListener("change", trocarClube)
+frm.rbPelotas.addEventListener("change", trocarClube)
+frm.rbFarroupilha.addEventListener("change", trocarClube)
 
