@@ -22,6 +22,8 @@ const trocarClube = () => {
     imClube.className = "img.fluid"                             //muda o estilo para exibir a imagem
     imClube.alt = `Símbolo do ${clube}`                         //modifica atributo alt
 
+    localStorage.setItem("clube", clube)                        //salva no navegador a escolha do cliente 
+
 }
 
 
