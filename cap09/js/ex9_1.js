@@ -31,3 +31,9 @@ frm.rbBrasil.addEventListener("change", trocarClube)
 frm.rbPelotas.addEventListener("change", trocarClube)
 frm.rbFarroupilha.addEventListener("change", trocarClube)
 
+
+const verificarClube = () => {
+    if(localStorage.getItem("clube")) {                   //se já estiver salvo algum clube
+
+    }
+}
