@@ -14,3 +14,8 @@ const trocarClube = () => {
         clube = "Farroupilha"
     }
 }
+
+// define as as classes dvTitulo: row e cores do clube 
+dvTitulo.className = `row cores-${clube}`
+
+// modifica a imagem de acordo com a seleção do cliente
