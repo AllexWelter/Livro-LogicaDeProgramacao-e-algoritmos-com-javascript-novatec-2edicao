@@ -22,7 +22,10 @@ if (selecao <= 2) {                                       //se selecao <= 2, ent
     //muda a propriedade src com a imagem do clube selecionado
     imClube.src = `img/${clubes[selecao].toLowerCase()}.png`
     imClube.className = "img-fluid"                       //muda estilo para exibir imagem
-    imClube.alt = `Símbolo do ${clube[selecao]}`          //texto alternativo
+    imClube.alt = `Símbolo do ${clubes[selecao]}`         //texto alternativo
+    localStorage.setItem("clube", clubes[selecao])        //salva nome do clube
+} else {                                                  //se selecionou nenhum
+
 }
 
 
