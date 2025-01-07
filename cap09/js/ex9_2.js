@@ -4,3 +4,7 @@ const inRadios = document.querySelectorAll("input")                //captura as 
 for (const inRadio of inRadios) {
     inRadio.addEventListener("change", trocarClube)
 }
+
+const trocarClube = () => {
+
+}
