@@ -32,7 +32,18 @@ if (selecao <= 2) {                                       //se selecao <= 2, ent
 }
 
 const verificarClube = () => {
-    
+    if(localStorage.getItem("clube")) {                   //se já estiver salvo algum clube
+        const clube = localStorage.getItem("clube")       //obtém o nome do clube
+    //conforme o clube, marca um dos elementos do input type radio
+        if(clube == "Brasil") {
+            inRadios[0].checked = true
+        } else if (clube == "Pelotas") {
+            inRadios[1].checked = true
+        } else {
+            inRadios[2].checked = true 
+        }
+        trocarClube
+    }
 }
 
 }
