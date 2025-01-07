@@ -31,5 +31,8 @@ if (selecao <= 2) {                                       //se selecao <= 2, ent
     localStorage.removeItem("clube")                      //remove variável do localStorage
 }
 
+const verificarClube = () => {
+    
+}
 
 }
