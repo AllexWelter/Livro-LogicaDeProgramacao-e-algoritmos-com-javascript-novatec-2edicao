@@ -1,0 +1,1 @@
+const inRadios = document.querySelectorAll("input")                //captura as tags input da página
