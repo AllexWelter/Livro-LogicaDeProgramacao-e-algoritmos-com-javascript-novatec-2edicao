@@ -25,7 +25,10 @@ if (selecao <= 2) {                                       //se selecao <= 2, ent
     imClube.alt = `Símbolo do ${clubes[selecao]}`         //texto alternativo
     localStorage.setItem("clube", clubes[selecao])        //salva nome do clube
 } else {                                                  //se selecionou nenhum
-
+    dvTitulo.className = "row"                            //tira a classe de cor de divTitulo
+    imClube.className = "d-none"                          //oculta a imagem
+    imClube.alt = ""                                      //limpa texto alternativo
+    localStorage.removeItem("clube")                      //remove variável do localStorage
 }
 
 
