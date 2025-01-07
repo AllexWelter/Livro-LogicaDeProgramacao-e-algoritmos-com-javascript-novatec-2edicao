@@ -11,6 +11,9 @@ const trocarClube = () => {
     let selecao
 // percorre os inRadios para verificar qual está selecionado
 for (let i = 0; i < inRadios; i++) {
-    if (inRadios[i].checked)
+    if (inRadios[i].checked) {
+        selecao = i                                       //se selecionado, armazena índice do radio selecionado
+        break                                             //e sai da repetição
+    }
 }  
 }
