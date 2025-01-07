@@ -16,4 +16,14 @@ for (let i = 0; i < inRadios; i++) {
         break                                             //e sai da repetição
     }
 }  
+
+if (selecao <= 2) {                                       //se selecao <= 2, então torce por algum clube
+    dvTitulo.className = `row cores-${clubes[selecao]}`   //modifica a cor
+    //muda a propriedade src com a imagem do clube selecionado
+    imClube.src = `img/${clubes[selecao].toLowerCase()}.png`
+    imClube.className = "img-fluid"                       //muda estilo para exibir imagem
+    imClube.alt = `Símbolo do ${clube[selecao]}`          //texto alternativo
+}
+
+
 }
