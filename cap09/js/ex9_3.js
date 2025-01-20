@@ -88,7 +88,7 @@ frm.btVencedor.addEventListener("click", () => {
     }
 
     //obtém os dados armazenados, separando-os em elementos de vetor
-    const nomes = localStorage.getItem("melancianome").split(";")
+    const nomes = localStorage.getItem("melanciaNome").split(";")
     const pesos = localStorage.getItem("melanciaPeso").split(";")
 
     //valor inicial para vencedor é o da primeira aposta 
@@ -115,7 +115,7 @@ frm.btVencedor.addEventListener("click", () => {
     alert(mensagem)
 })
 
-frm.btnLimpar.addEventListener("click", () => {
+frm.btLimpar.addEventListener("click", () => {
 //solicita confirmação para excluir as apostas
     if(confirm("Confirma exclusão de todas as apostas?")) {
         localStorage.removeItem("melanciaNome")  //remove as variáveis salvas
