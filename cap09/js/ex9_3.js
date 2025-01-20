@@ -15,4 +15,11 @@ frm.addEventListener("submit", (e) => {
         frm.inPeso.focus()
         return
     }
+
+    if (localStorage.getItem("melanciaNome")) {       //se houver dados em localStorage
+//obtém o conteúdo já salvo e acrescenta ";" + dados da aposta
+    const melanciaNome = localStorage.getItem("melanciaNome")    
+    }
+
+
 })
