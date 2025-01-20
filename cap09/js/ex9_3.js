@@ -22,7 +22,16 @@ frm.addEventListener("submit", (e) => {
     const melanciaPeso = localStorage.getItem("melanciaPeso") + ";" + peso  
     localStorage.setItem("melanciaNome", melanciaNome)   //salva os dados
     localStorage.setItem("melanciaPeso", melanciaPeso)  
+    } else {                                             //senão, é a primeira aposta
+        localStorage.setItem("melanciaNome", melanciaNome)
+        localStorage.setItem("melanciaPeso", melanciaPeso)     
+
     }
+
+    mostrarApostas()           //chama function que mostra as apostas já salvas
+    frm.reset()                //limpa o form
+    frm.inNome.focus()         //joga o foco (cursor) no campo inNome
+
 
 
 })
