@@ -66,5 +66,8 @@ const mostrarApostas = () => {
     }   
 
 //exibe as linhas (altera o conteúdo do elemento respLista)
-
+    respLista.innerText = linhas
 }
+
+//chama a function quando a página é carregada, para mostrar apostas salvas
+window.addEventListener("load", mostrarApostas)
