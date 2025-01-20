@@ -32,3 +32,13 @@ frm.addEventListener("submit", (e) => {
     frm.reset()                //limpa o form
     frm.inNome.focus()         //joga o foco (cursor) no campo inNome
 })
+
+const verApostaExiste = (peso) => {
+    if(localStorage.getItem("melanciaPeso")) {          //se existir dados em localStorage
+//obtém seu conteúdo e a string é dividida em itens de vetor a cada ";"
+    const pesos = localStorage.getItem("melanciaPeso").split(";")
+    
+//O peso deve ser convertido em string, pois o vetor contém strings
+
+    }
+}
