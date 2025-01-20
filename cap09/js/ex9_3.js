@@ -39,6 +39,12 @@ const verApostaExiste = (peso) => {
     const pesos = localStorage.getItem("melanciaPeso").split(";")
     
 //O peso deve ser convertido em string, pois o vetor contém strings
-
+        return pesos.includes(peso.toString())
+    }else {
+        return false 
     }
+}
+
+const mostrarApostas = () => {
+    
 }
