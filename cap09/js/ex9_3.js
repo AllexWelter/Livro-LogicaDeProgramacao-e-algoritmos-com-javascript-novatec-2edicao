@@ -46,5 +46,9 @@ const verApostaExiste = (peso) => {
 }
 
 const mostrarApostas = () => {
-    
+//se não há apostas armazenadas em localStorage
+   if(!localStorage.getItem("melanciaNome")) {
+//limpa o espaço de exibição das apostas (para quando "Limpar Apostas")
+    repLista.innerText = " "    
+   }     
 }
