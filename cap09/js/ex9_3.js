@@ -23,8 +23,8 @@ frm.addEventListener("submit", (e) => {
         localStorage.setItem("melanciaNome", melanciaNome)   //salva os dados
         localStorage.setItem("melanciaPeso", melanciaPeso)
     } else {                                             //senão, é a primeira aposta
-        localStorage.setItem("melanciaNome", melanciaNome)
-        localStorage.setItem("melanciaPeso", melanciaPeso)
+        localStorage.setItem("melanciaNome", nome)
+        localStorage.setItem("melanciaPeso", peso)
 
     }
 
@@ -62,7 +62,7 @@ const mostrarApostas = () => {
     //repetição para percorrer todos os elementos do vetor 
     for (let i = 0; i < nomes.length; i++) {
         //concatena em linhas os nomes dos apostadores e suas apostas
-        linhas = + nomes[i] + " - " + peso[i] + "gr \n"
+        linhas += nomes[i] + " - " + pesos[i] + "gr \n"
     }
 
     //exibe as linhas (altera o conteúdo do elemento respLista)
@@ -113,6 +113,8 @@ frm.btVencedor.addEventListener("click", () => {
     mensagem += "\nVencedor: " + vencedorNome
     mensagem += "\nAposta: " + vencedorPeso + "gr"
     alert(mensagem)
+})
 
-
+frm.btnLimpar.addEventListener("click", () => {
+    
 })
