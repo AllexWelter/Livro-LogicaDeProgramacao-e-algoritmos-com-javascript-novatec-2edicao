@@ -1,5 +1,5 @@
 const frm = document.querySelector("form")         //obtém os elementos da página
-const repLista = document.querySelector("pre")
+const respLista = document.querySelector("pre")
 
 
 frm.addEventListener("submit", (e) => {
@@ -49,7 +49,7 @@ const mostrarApostas = () => {
 //se não há apostas armazenadas em localStorage
    if(!localStorage.getItem("melanciaNome")) {
 //limpa o espaço de exibição das apostas (para quando "Limpar Apostas")
-    repLista.innerText = " "
+    respLista.innerText = " "
     return                   //retorna (não executa os comandos abaixo)   
    }     
 
@@ -65,5 +65,6 @@ const mostrarApostas = () => {
         linhas =+ nomes[i] + " - " + peso[i] + "gr \n"       
     }   
 
+//exibe as linhas (altera o conteúdo do elemento respLista)
 
 }
