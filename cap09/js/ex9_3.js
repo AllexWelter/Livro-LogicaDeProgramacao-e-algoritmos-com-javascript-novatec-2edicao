@@ -79,5 +79,17 @@ frm.btVencedor.addEventListener("click", () => {
         return      //retorna (não executas os comandos abaixo)
     }
 
+//solicita o peso correto da melancia
+    const pesoCorreto = Number(prompt("Qual o peso correto da melancia?"))    
+
+//se não informou, retorna
+    if (pesoCorreto == 0 || isNaN(pesoCorreto)) {
+        return
+    }
+
+//obtém os dados armazenados, separando-os em elementos de vetor
+    const nomes = localStorage.getItem("melancianome").split(";")
+    const pesos = localStorage.getItem("melanciaPeso").split(";")
+    
 
 })
