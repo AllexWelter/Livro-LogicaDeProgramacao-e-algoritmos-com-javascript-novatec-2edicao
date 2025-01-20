@@ -49,6 +49,13 @@ const mostrarApostas = () => {
 //se não há apostas armazenadas em localStorage
    if(!localStorage.getItem("melanciaNome")) {
 //limpa o espaço de exibição das apostas (para quando "Limpar Apostas")
-    repLista.innerText = " "    
+    repLista.innerText = " "
+    return                   //retorna (não executa os comandos abaixo)   
    }     
+
+//Obtém o conteúdo das variáveis salvas no localStorage, separando-as em elementos de vetor a cada ocorrência do ";"
+   const nomes = localStorage.getItem("melanciaNome").split(";")
+   const pesos = localStorage.getItem("melanciaPeso").split(";")
+
+
 }
