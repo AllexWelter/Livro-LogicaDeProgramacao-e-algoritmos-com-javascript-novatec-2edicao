@@ -10,5 +10,9 @@ frm.addEventListener("submit", (e) => {
 
 
  //chama function que verifica se peso já foi apostado   
-    
+    if (verApostaExiste(peso)) {
+        alert("Alguém já apostou este peso, informe outro...")
+        frm.inPeso.focus()
+        return
+    }
 })
