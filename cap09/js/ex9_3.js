@@ -74,7 +74,10 @@ window.addEventListener("load", mostrarApostas)
 
 frm.btVencedor.addEventListener("click", () => {
 //se não há apostas armazenadas em localStorage
-    
+    if(!localStorage.getItem("melanciaNome")) {
+        alert("Não há apostas cadastradas")
+        return      //retorna (não executas os comandos abaixo)
+    }
 
 
 })
