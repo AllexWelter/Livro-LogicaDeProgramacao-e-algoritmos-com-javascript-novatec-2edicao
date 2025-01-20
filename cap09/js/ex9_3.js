@@ -57,5 +57,12 @@ const mostrarApostas = () => {
    const nomes = localStorage.getItem("melanciaNome").split(";")
    const pesos = localStorage.getItem("melanciaPeso").split(";")
 
+   let linhas = " "      //irá acumular as linhas a serem exibidas
+
+//repetição para percorrer todos os elementos do vetor 
+    for (let i = 0; i < nomes; i++) {
+        
+    }   
+
 
 }
