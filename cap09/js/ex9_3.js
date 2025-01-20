@@ -90,6 +90,16 @@ frm.btVencedor.addEventListener("click", () => {
 //obtém os dados armazenados, separando-os em elementos de vetor
     const nomes = localStorage.getItem("melancianome").split(";")
     const pesos = localStorage.getItem("melanciaPeso").split(";")
-    
+
+//valor inicial para vencedor é o da primeira aposta 
+let vencedorNome = nomes[0]
+let vencedorPeso = Number(pesos[0])
+
+//percorre as apostas
+    for(let i = 1; i < nomes.length; i++) {
+//calcula a diferença de peso do "vencedor" e da aposta atual
+            
+    }
+
 
 })
