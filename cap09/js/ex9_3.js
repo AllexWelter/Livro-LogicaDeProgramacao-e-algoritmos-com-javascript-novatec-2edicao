@@ -60,8 +60,9 @@ const mostrarApostas = () => {
    let linhas = " "      //irá acumular as linhas a serem exibidas
 
 //repetição para percorrer todos os elementos do vetor 
-    for (let i = 0; i < nomes; i++) {
-        
+    for (let i = 0; i < nomes.length; i++) {
+//concatena em linhas os nomes dos apostadores e suas apostas
+        linhas =+ nomes[i] + " - " + peso[i] + "gr \n"       
     }   
 
 
