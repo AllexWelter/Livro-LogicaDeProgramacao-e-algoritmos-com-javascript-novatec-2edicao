@@ -107,5 +107,12 @@ frm.btVencedor.addEventListener("click", () => {
         }
     }
 
+//monsta mensagem com dados do vencedor
+    let mensagem = "Resultado - Peso Correto: " + pesoCorreto + "gr"
+    mensagem += "\n------------------------------------------------"
+    mensagem += "\nVencedor: " + vencedorNome
+    mensagem += "\nAposta: " + vencedorPeso + "gr"
+    alert(mensagem)
+
 
 })
