@@ -71,3 +71,10 @@ const mostrarApostas = () => {
 
 //chama a function quando a página é carregada, para mostrar apostas salvas
 window.addEventListener("load", mostrarApostas)
+
+frm.btVencedor.addEventListener("click", () => {
+//se não há apostas armazenadas em localStorage
+    
+
+
+})
