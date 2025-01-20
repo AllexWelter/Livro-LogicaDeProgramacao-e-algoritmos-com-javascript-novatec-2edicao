@@ -31,7 +31,4 @@ frm.addEventListener("submit", (e) => {
     mostrarApostas()           //chama function que mostra as apostas já salvas
     frm.reset()                //limpa o form
     frm.inNome.focus()         //joga o foco (cursor) no campo inNome
-
-
-
 })
