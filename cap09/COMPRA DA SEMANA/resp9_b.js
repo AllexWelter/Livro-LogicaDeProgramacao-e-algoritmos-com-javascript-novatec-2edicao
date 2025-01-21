@@ -2,7 +2,7 @@ const frm = document.querySelector("form")
 const resp = document.querySelector("pre")
 
 frm.addEventListener("submit", (e) =>{
-    e.preventDefault
+    e.preventDefault()
 
     const produto = frm.inProduto.value
 
@@ -39,6 +39,6 @@ const listarProdutos = () => {
     
     const produtos = localStorage.getItem("comprasProduto").split(";")
 
-    resp.innerText = `Produtos Adicionados\n-------------------\n${produtos.join}`
+    resp.innerText = `Produtos Adicionados\n-------------------\n${produtos.join("\n")}`
 }
 window.addEventListener("load", listarProdutos)
