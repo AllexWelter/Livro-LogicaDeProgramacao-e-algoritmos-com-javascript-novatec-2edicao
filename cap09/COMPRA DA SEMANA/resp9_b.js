@@ -35,5 +35,10 @@ const listarProdutos = () => {
     if(!localStorage.getItem("comprasProduto")) {
         resp.innerText = ""
         return
-    }    
+    }
+    
+    const produtos = localStorage.getItem("comprasProduto").split(";")
+
+    resp.innerText = `Produtos Adicionados\n-------------------\n${produtos.join}`
 }
+window.addEventListener("load", listarProdutos)
