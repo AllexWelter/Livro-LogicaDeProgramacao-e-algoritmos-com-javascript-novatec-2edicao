@@ -50,7 +50,7 @@ frm.btLimpar.addEventListener("click", () => {
             listarProdutos()
         }
     } else {
-        alert("Lista está vazia...)
+        alert("Lista está vazia...")
     }
     frm.inProduto.focus()
 })
