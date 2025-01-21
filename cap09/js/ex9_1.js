@@ -41,7 +41,7 @@ const verificarClube = () => {
         } else if (clube == "Pelotas") {
             frm.rbPelotas.checked = true
         } else {
-            frm.rbFarroupilha.checked = true
+            frm.rb.checked = true
         }
         trocarClube()                                    //chama function que troca imagem e cores 
     }
