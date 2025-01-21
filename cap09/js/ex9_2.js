@@ -1,11 +1,33 @@
-/* A function contarVisitas é o acréscimo do exercício (ao exemplo inicial do capítulo) 
-*/
+/* A function contarVisitas é o acréscimo do exercício (ao exemplo inicial do capítulo)  */
 
 // Usamos querySelectorAll() e indicamos o elemento [1], pois o querySelectorAll() retorna um array e queremos criar referência ao segundo h5 da página (arrays iniciam em 0)
 
 const resp = document.querySelectorAll("h5")[1]
 
+const contarVisitas = () => {
 
+    let contador = 0
+
+    if(localStorage.getItem("lojaContador")) {
+        contador = Number(localStorage.getItem("lojaContador"))
+    }
+
+    contador ++
+
+    if (contador == 1) {
+        resp.innerText = "Muito Bem-Vindo! Esta é a sua primeira visita ao nosso site."
+    } else {
+        resp.innerText = `Que bom que você voltou! Esta é a sua visita de número ${contador} ao nosso site.`
+    }
+
+    localStorage.setItem("lojaContador", contador)
+
+}
+
+/* É necessário manter as demais funções da página para o correto funcionamento das trocas de clube, bem como, para carregar a página com as cores e símbolo do clube salvo em localStorage
+
+    A função contarVisitas é chamada em verificarClube()
+*/
 
 
 
@@ -62,6 +84,8 @@ const verificarClube = () => {
         }
         trocarClube()                                     // chama a function que troca a image e cores       
     }
+
+        contarVisitas()           //chama function com a mensagem do contador
 }
 
 //ao carregar a página, verifica se cliente já selecionou clube anteriormente
