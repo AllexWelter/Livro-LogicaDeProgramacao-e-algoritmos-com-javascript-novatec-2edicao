@@ -1,3 +1,15 @@
+/* A function contarVisitas é o acréscimo do exercício (ao exemplo inicial do capítulo) 
+*/
+
+
+
+
+
+
+
+
+
+
 const inRadios = document.querySelectorAll("input")                //captura as tags input da página
 const imClube = document.querySelector("#imgClube")
 const dvTitulo = document.querySelector("#divTitulo")
