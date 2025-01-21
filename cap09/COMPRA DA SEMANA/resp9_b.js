@@ -44,5 +44,13 @@ const listarProdutos = () => {
 window.addEventListener("load", listarProdutos)
 
 frm.btLimpar.addEventListener("click", () => {
-    
+    if(localStorage.getItem("comprasProduto")) {
+        if (confirm("Deseja realmente excluir todo os itens da lista?")) {
+            localStorage.removeItem("comprasProduto")
+            listarProdutos()
+        }
+    } else {
+        alert("Lista está vazia...)
+    }
+    frm.inProduto.focus()
 })
