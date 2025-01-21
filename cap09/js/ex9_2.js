@@ -1,6 +1,9 @@
 /* A function contarVisitas é o acréscimo do exercício (ao exemplo inicial do capítulo) 
 */
 
+// Usamos querySelectorAll() e indicamos o elemento [1], pois o querySelectorAll() retorna um array e queremos criar referência ao segundo h5 da página (arrays iniciam em 0)
+
+const resp = document.querySelectorAll("h5")[1]
 
 
 
