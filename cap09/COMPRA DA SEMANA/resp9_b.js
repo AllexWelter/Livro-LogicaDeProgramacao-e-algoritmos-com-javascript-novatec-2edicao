@@ -19,9 +19,9 @@ frm.addEventListener("submit", (e) =>{
 
         //salva vetor classificado (com elementos separados por "")
         localStorage.setItem("comprasProduto", produtos.join(";"))
-    }else {
+    } else {
         //senão (é a primeira inclusão), salva apenas o produto
-        localStorage.setItem("compraProduto", produto)
+        localStorage.setItem("comprasProduto", produto)
     }
 
     listarProdutos()
