@@ -42,3 +42,7 @@ const listarProdutos = () => {
     resp.innerText = `Produtos Adicionados\n-------------------\n${produtos.join("\n")}`
 }
 window.addEventListener("load", listarProdutos)
+
+frm.btLimpar.addEventListener("click", () => {
+    
+})
