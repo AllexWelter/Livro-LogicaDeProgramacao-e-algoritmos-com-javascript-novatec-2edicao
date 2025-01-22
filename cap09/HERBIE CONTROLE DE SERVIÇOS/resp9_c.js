@@ -18,5 +18,20 @@ frm.addEventListener("submit", (e) => {
         localStorage.setItem("herbieServico", servico)
     }
     
+    mostrarPendentes()
+
+    frm.reset()
+    frm.inServico.focus()
 
 })
+
+const mostrarPendentes = () => {
+    let numPendentes
+
+    if (localStorage.getItem("herbieServico")) {
+        numPendentes = localStorage.getItem("herbieServico").split(";").length
+    } else {
+        numPendentes = 0
+    }
+    resp1.innerText = numPendentes
+}
