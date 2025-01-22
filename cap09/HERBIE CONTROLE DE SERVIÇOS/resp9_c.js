@@ -4,3 +4,15 @@
 const frm = document.querySelector("form")
 const resp1 = document.querySelector("span")
 const resp2 = document.querySelector("h4")
+
+
+frm.addEventListener("submit", (e) => {
+    e.preventDefault()
+    
+
+    const servico = frm.inServico.value
+
+    
+    
+
+})
