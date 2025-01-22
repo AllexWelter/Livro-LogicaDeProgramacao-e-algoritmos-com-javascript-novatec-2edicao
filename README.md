@@ -123,7 +123,7 @@ Exercícios do capítulo:
 ---
 ### Capítulo 8 - Funções e Eventos
 
-Cpítulo aborda Funções e eventos, com ___ArrowFunctions(funções de seta)___, funções com passagem de parâmetros como o ___alert()___ utilizano parâmetros e argumentos, funções com retorno de valor com ___return()___ seguido do conteúdo de retorno, funções com parâmetros REST com o operador ___Rest(...)___ e utilização da palavra reservada ___arguments___, funções anônimas com o método ___setInterval()___ e eventos JavaScript com eventos de interface do usuário: ___load___, ___unload___, ___resize___, eventos de mouse: ___click___, ___dbclick___, ___mouseouver___, eventos de teclado: ___keypress___, ___keydown___, ___keyup___, e eventos de formulário: ___change___, ___focus___, ___blur___. 
+Capítulo aborda Funções e eventos, com ___ArrowFunctions(funções de seta)___, funções com passagem de parâmetros como o ___alert()___ utilizano parâmetros e argumentos, funções com retorno de valor com ___return()___ seguido do conteúdo de retorno, funções com parâmetros REST com o operador ___Rest(...)___ e utilização da palavra reservada ___arguments___, funções anônimas com o método ___setInterval()___ e eventos JavaScript com eventos de interface do usuário: ___load___, ___unload___, ___resize___, eventos de mouse: ___click___, ___dbclick___, ___mouseouver___, eventos de teclado: ___keypress___, ___keydown___, ___keyup___, e eventos de formulário: ___change___, ___focus___, ___blur___. 
 
 Exercícios do capítulo: 
 
@@ -139,6 +139,15 @@ Exercícios do capítulo:
 
 ---
 ### Capítulo 9 - Persistência de dados com localStorage
+
+Capítulo aborda Persistência de daos com localStorage, com salvar e recuperar dados utilizando ___setItem()___ e ___getItem()___,um pouco de ___Bootstrap___ e conceito de ___mobile first___, remoção de dados do localStorage com ___removeItem()___ e ___clear()___, uso do ___querySelectorAll()___ e manipulação de listas no localStorage com o uso do caractere ___";"___ .
+
+[COMPRA DA SEMANA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap09/COMPRA%20DA%20SEMANA)
+
+[HERBIE CONTROLE DE SERVIÇOS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap09/HERBIE%20CONTROLE%20DE%20SERVIÇOS)
+
+---
+### Capítulo 10 - Inserir elementos HTML via JavaScript
 
 Atualização mediante leitura do livro...
 
