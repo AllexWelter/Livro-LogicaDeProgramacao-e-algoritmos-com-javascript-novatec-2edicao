@@ -12,7 +12,11 @@ frm.addEventListener("submit", (e) => {
 
     const servico = frm.inServico.value
 
-    
+    if (localStorage.getItem("herbieServico")) {
+        localStorage.setItem("herbieServico", localStorage.getItem("herbieServico") + ";" + servico)
+    } else {
+        localStorage.setItem("herbieServico", servico)
+    }
     
 
 })
