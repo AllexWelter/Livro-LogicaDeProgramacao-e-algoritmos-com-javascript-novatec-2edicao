@@ -1,3 +1,7 @@
+/*c) Elaborar um programa para cadastrar produtos na lista de compras da semana. Salvar e exibir a listagem dos produtos em ordem alfabética.
+*/
+
+
 const frm = document.querySelector("form")
 const resp = document.querySelector("pre")
 
