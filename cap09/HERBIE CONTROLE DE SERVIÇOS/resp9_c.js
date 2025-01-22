@@ -35,3 +35,22 @@ const mostrarPendentes = () => {
     }
     resp1.innerText = numPendentes
 }
+window.addEventListener("load", mostrarPendentes)
+
+frm.btExecutar.addEventListener("click", () => {
+
+    if(!localStorage.getItem("herbieServico")) {
+        alert("Não há serviços pendentes para executar")
+        return
+    }
+
+    const servicos = localStorage.getItem("herbieServico").split(";")
+
+    const emExecucao = servicos.shift()        //remove o primeiro
+
+    resp2.innerText = emExecucao               //mostra o removido
+
+    localStorage.setItem("herbieServico", servicos.join(";"))    //salva a nova lista (sem o removido)
+
+    mostrarPendentes()
+})
