@@ -142,6 +142,8 @@ Exercícios do capítulo:
 
 Capítulo aborda Persistência de daos com localStorage, com salvar e recuperar dados utilizando ___setItem()___ e ___getItem()___,um pouco de ___Bootstrap___ e conceito de ___mobile first___, remoção de dados do localStorage com ___removeItem()___ e ___clear()___, uso do ___querySelectorAll()___ e manipulação de listas no localStorage com o uso do caractere ___";"___ .
 
+Exercícios do capítulo: 
+
 [COMPRA DA SEMANA](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap09/COMPRA%20DA%20SEMANA)
 
 [HERBIE CONTROLE DE SERVIÇOS](https://github.com/AllexWelter/Livro-LogicaDeProgramacao-e-algoritmos-com-javascript-novatec-2edicao/tree/main/cap09/HERBIE%20CONTROLE%20DE%20SERVIÇOS)
