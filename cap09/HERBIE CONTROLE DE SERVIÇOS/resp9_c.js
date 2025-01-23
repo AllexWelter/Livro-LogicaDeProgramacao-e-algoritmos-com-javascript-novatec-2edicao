@@ -8,7 +8,7 @@ const resp2 = document.querySelector("h4")
 
 frm.addEventListener("submit", (e) => {
     e.preventDefault()
-    
+
 
     const servico = frm.inServico.value
 
@@ -17,7 +17,7 @@ frm.addEventListener("submit", (e) => {
     } else {
         localStorage.setItem("herbieServico", servico)
     }
-    
+
     mostrarPendentes()
 
     frm.reset()
@@ -39,7 +39,7 @@ window.addEventListener("load", mostrarPendentes)
 
 frm.btExecutar.addEventListener("click", () => {
 
-    if(!localStorage.getItem("herbieServico")) {
+    if (!localStorage.getItem("herbieServico")) {
         alert("Não há serviços pendentes para executar")
         return
     }
