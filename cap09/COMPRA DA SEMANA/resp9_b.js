@@ -5,7 +5,7 @@
 const frm = document.querySelector("form")
 const resp = document.querySelector("pre")
 
-frm.addEventListener("submit", (e) =>{
+frm.addEventListener("submit", (e) => {
     e.preventDefault()
 
     const produto = frm.inProduto.value
@@ -36,11 +36,11 @@ frm.addEventListener("submit", (e) =>{
 })
 
 const listarProdutos = () => {
-    if(!localStorage.getItem("comprasProduto")) {
+    if (!localStorage.getItem("comprasProduto")) {
         resp.innerText = ""
         return
     }
-    
+
     const produtos = localStorage.getItem("comprasProduto").split(";")
 
     resp.innerText = `Produtos Adicionados\n-------------------\n${produtos.join("\n")}`
@@ -48,7 +48,7 @@ const listarProdutos = () => {
 window.addEventListener("load", listarProdutos)
 
 frm.btLimpar.addEventListener("click", () => {
-    if(localStorage.getItem("comprasProduto")) {
+    if (localStorage.getItem("comprasProduto")) {
         if (confirm("Deseja realmente excluir todo os itens da lista?")) {
             localStorage.removeItem("comprasProduto")
             listarProdutos()
