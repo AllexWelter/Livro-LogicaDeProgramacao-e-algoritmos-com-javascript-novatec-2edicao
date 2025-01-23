@@ -107,7 +107,7 @@ frm.btVencedor.addEventListener("click", () => {
         }
     }
 
-//monsta mensagem com dados do vencedor
+    //monsta mensagem com dados do vencedor
     let mensagem = "Resultado - Peso Correto: " + pesoCorreto + "gr"
     mensagem += "\n------------------------------------------------"
     mensagem += "\nVencedor: " + vencedorNome
@@ -116,10 +116,10 @@ frm.btVencedor.addEventListener("click", () => {
 })
 
 frm.btLimpar.addEventListener("click", () => {
-//solicita confirmação para excluir as apostas
-    if(confirm("Confirma exclusão de todas as apostas?")) {
+    //solicita confirmação para excluir as apostas
+    if (confirm("Confirma exclusão de todas as apostas?")) {
         localStorage.removeItem("melanciaNome")  //remove as variáveis salvas
         localStorage.removeItem("melanciaPeso")  //em localstorage
         mostrarApostas()                         //exibe a listagem vazia
-    }    
+    }
 })
