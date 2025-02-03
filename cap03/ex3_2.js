@@ -1,6 +1,7 @@
 const prompt = require("prompt-sync")()     //adiciona o pacote ao programa
 const veiculo = prompt("Veículo: ")         //lê os dados de entrada
 const preco = Number(prompt("Preço R$: "))     
+
 const entrada = preco * 0.50                //calcula valor de entrada
 const parcela = (preco * 0.50) / 12         //... e das parcelas
 console.log(`Promoção : ${veiculo}`)        //exibe as respostas
